@@ -24,7 +24,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 36.51,
-    "lng": -4.73
+    "lng": -4.73,
+    "Marque": "Coralia"
   },
   {
     "Nom du club": "Sol Falco",
@@ -51,7 +52,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 39.93,
-    "lng": 3.83
+    "lng": 3.83,
+    "Marque": "Coralia"
   },
   {
     "Nom du club": "Aguamarina",
@@ -78,7 +80,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 39.98,
-    "lng": 4.14
+    "lng": 4.14,
+    "Marque": "Coralia"
   },
   {
     "Nom du club": "Landmar Costa Los Gigantes Family Resort",
@@ -105,7 +108,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Disponible",
     "lat": 28.23,
-    "lng": -16.84
+    "lng": -16.84,
+    "Marque": "Coralia"
   },
   {
     "Nom du club": "Janna E Sole",
@@ -132,7 +136,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 40.71,
-    "lng": 9.69
+    "lng": 9.69,
+    "Marque": "Coralia"
   },
   {
     "Nom du club": "Coral Azul Beach",
@@ -159,7 +164,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 41.9297,
-    "lng": 19.2083
+    "lng": 19.2083,
+    "Marque": "Coralia"
   },
   {
     "Nom du club": "Amaronda Resort",
@@ -186,7 +192,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 38.3981,
-    "lng": 23.7936
+    "lng": 23.7936,
+    "Marque": "Coralia"
   },
   {
     "Nom du club": "Cretan Seaside Boutique Hotel",
@@ -213,7 +220,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 35.31,
-    "lng": 25.39
+    "lng": 25.39,
+    "Marque": "Coralia"
   },
   {
     "Nom du club": "Coral Beach Resort",
@@ -240,7 +248,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 34.85,
-    "lng": 32.35
+    "lng": 32.35,
+    "Marque": "Coralia"
   },
   {
     "Nom du club": "Gypsophila Marine",
@@ -267,7 +276,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 36.5971,
-    "lng": 30.5567
+    "lng": 30.5567,
+    "Marque": "Coralia"
   },
   {
     "Nom du club": "Vincci Dar Midoun",
@@ -294,7 +304,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 33.8076,
-    "lng": 10.8451
+    "lng": 10.8451,
+    "Marque": "Coralia"
   },
   {
     "Nom du club": "Bluebay Grand Esmeralda",
@@ -321,7 +332,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 20.6296,
-    "lng": -87.0739
+    "lng": -87.0739,
+    "Marque": "Coralia"
   },
   {
     "Nom du club": "Occidental Boa Vista Beach",
@@ -348,7 +360,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 16.16,
-    "lng": -22.93
+    "lng": -22.93,
+    "Marque": "Coralia"
   },
   {
     "Nom du club": "Iberostar Cala Barca",
@@ -375,7 +388,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 39.35,
-    "lng": 3.21
+    "lng": 3.21,
+    "Marque": "Eldorador"
   },
   {
     "Nom du club": "Barcelo Fuerteventura Mar",
@@ -402,7 +416,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 28.39,
-    "lng": -13.86
+    "lng": -13.86,
+    "Marque": "Eldorador"
   },
   {
     "Nom du club": "Kenzi Agdal Medina",
@@ -429,7 +444,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 31.6295,
-    "lng": -7.9811
+    "lng": -7.9811,
+    "Marque": "Eldorador"
   },
   {
     "Nom du club": "Magic Life Penelope Beach",
@@ -456,7 +472,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 33.8076,
-    "lng": 10.8451
+    "lng": 10.8451,
+    "Marque": "Eldorador"
   },
   {
     "Nom du club": "Peninsula Resort & Spa",
@@ -483,7 +500,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Non spécifié",
     "lat": 35.4069,
-    "lng": 24.9956
+    "lng": 24.9956,
+    "Marque": "Héliades"
   },
   {
     "Nom du club": "Emerald",
@@ -510,7 +528,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Disponible",
     "lat": 35.4,
-    "lng": 24.52
+    "lng": 24.52,
+    "Marque": "Héliades"
   },
   {
     "Nom du club": "Lyda",
@@ -537,7 +556,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Non spécifié",
     "lat": 35.32,
-    "lng": 25.3
+    "lng": 25.3,
+    "Marque": "Héliades"
   },
   {
     "Nom du club": "Atlantica Ocean Beach",
@@ -564,7 +584,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 35.51,
-    "lng": 23.87
+    "lng": 23.87,
+    "Marque": "Héliades"
   },
   {
     "Nom du club": "Delfinia Resort",
@@ -591,7 +612,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Non spécifié",
     "lat": 36.27,
-    "lng": 28.16
+    "lng": 28.16,
+    "Marque": "Héliades"
   },
   {
     "Nom du club": "Riu Funana",
@@ -600,7 +622,7 @@
     "Nombre de chambres": "572",
     "Types de chambres": "Standard, Deluxe, Suite",
     "Adult Only": "Non",
-    "Pays": "Turquie",
+    "Pays": "Cap-Vert",
     "Ville": "Santa Maria",
     "Accès direct à la mer": "Oui",
     "Service de transferts": "Non spécifié",
@@ -618,7 +640,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 16.6,
-    "lng": -22.9
+    "lng": -22.9,
+    "Marque": "Héliades"
   },
   {
     "Nom du club": "Anemos Luxury Grand Resort",
@@ -645,7 +668,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Non spécifié",
     "lat": 35.36,
-    "lng": 24.26
+    "lng": 24.26,
+    "Marque": "Héliades"
   },
   {
     "Nom du club": "High Beach Resort",
@@ -672,7 +696,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Disponible",
     "lat": 35.29,
-    "lng": 25.46
+    "lng": 25.46,
+    "Marque": "Héliades"
   },
   {
     "Nom du club": "Atlantica Dreams Resort & Spa",
@@ -699,7 +724,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Non spécifié",
     "lat": 36.02,
-    "lng": 27.93
+    "lng": 27.93,
+    "Marque": "Héliades"
   },
   {
     "Nom du club": "Amaria Beach Resort",
@@ -726,7 +752,8 @@
     "Accès PMR": "Non",
     "WiFi": "Non spécifié",
     "lat": 39.6292,
-    "lng": 19.8456
+    "lng": 19.8456,
+    "Marque": "Héliades"
   },
   {
     "Nom du club": "Atlantica Ocean Beach Resort",
@@ -753,7 +780,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Non spécifié",
     "lat": 35.51,
-    "lng": 23.81
+    "lng": 23.81,
+    "Marque": "Héliades"
   },
   {
     "Nom du club": "Barcelo Andalucia",
@@ -780,7 +808,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 37.18,
-    "lng": -6.96
+    "lng": -6.96,
+    "Marque": "Kappa Club"
   },
   {
     "Nom du club": "Innside Durrës",
@@ -789,7 +818,7 @@
     "Nombre de chambres": "177",
     "Types de chambres": "Standard, Supérieure",
     "Adult Only": "Non",
-    "Pays": "Turquie",
+    "Pays": "Albanie",
     "Ville": "Durrës Albanie",
     "Accès direct à la mer": "Oui",
     "Service de transferts": "Non spécifié",
@@ -807,7 +836,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 41.3233,
-    "lng": 19.4542
+    "lng": 19.4542,
+    "Marque": "Kappa Club"
   },
   {
     "Nom du club": "Iberostar Waves Founty Beach",
@@ -834,7 +864,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 30.4278,
-    "lng": -9.5981
+    "lng": -9.5981,
+    "Marque": "Kappa Club"
   },
   {
     "Nom du club": "Dreams Dominicus La Romana",
@@ -861,7 +892,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 36.85,
-    "lng": 30.7
+    "lng": 30.7,
+    "Marque": "Kappa Club"
   },
   {
     "Nom du club": "Royal Horizon Baobab",
@@ -888,11 +920,12 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Disponible",
     "lat": 14.49,
-    "lng": -17.08
+    "lng": -17.08,
+    "Marque": "Kappa Club"
   },
   {
     "Nom du club": "Estival Torrequebrada",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "385",
     "Types de chambres": "Supérieure vue mer et Junior Suite vue mer\nlatérale",
@@ -915,11 +948,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 36.5988,
-    "lng": -1.5727
+    "lng": -1.5727,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Alua Village",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "244",
     "Types de chambres": "Standard, Supérieure",
@@ -942,11 +976,12 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Disponible",
     "lat": 28.06,
-    "lng": -14.32
+    "lng": -14.32,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Sentido Aequora Lanzarote Suites",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "398",
     "Types de chambres": "Standard, Supérieure",
@@ -969,11 +1004,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 28.92,
-    "lng": -13.66
+    "lng": -13.66,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Palmeiras Village",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "504",
     "Types de chambres": "Villa",
@@ -996,11 +1032,12 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 37.1,
-    "lng": -8.35
+    "lng": -8.35,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Sporting Sardinia",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "273",
     "Types de chambres": "Standard, Supérieure",
@@ -1023,11 +1060,12 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 40.72,
-    "lng": 9.71
+    "lng": 9.71,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Epidaurus",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "312",
     "Types de chambres": "Villa",
@@ -1050,11 +1088,12 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 42.5839,
-    "lng": 18.2183
+    "lng": 18.2183,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Laguna Beach",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "189",
     "Types de chambres": "Standard, Supérieure",
@@ -1077,11 +1116,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 42.27,
-    "lng": 27.75
+    "lng": 27.75,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Delphi Beach",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "177",
     "Types de chambres": "Standard, Supérieure",
@@ -1104,11 +1144,12 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Disponible",
     "lat": 38.36,
-    "lng": 22.06
+    "lng": 22.06,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Salammbô",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "256",
     "Types de chambres": "Standard, Supérieure",
@@ -1131,11 +1172,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 36.4,
-    "lng": 10.6169
+    "lng": 10.6169,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Playa Djerba",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "450",
     "Types de chambres": "familiale plus spacieuse et chambre\nfamiliale",
@@ -1158,11 +1200,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 33.8076,
-    "lng": 10.8451
+    "lng": 10.8451,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Carayou",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "132",
     "Types de chambres": "Standard",
@@ -1185,11 +1228,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 14.5255,
-    "lng": -61.0424
+    "lng": -61.0424,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Sol Caribe Beach",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "393",
     "Types de chambres": "Non spécifié",
@@ -1212,11 +1256,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 23.1544,
-    "lng": -81.2536
+    "lng": -81.2536,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Sandos Caracol Nature Resort",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "955",
     "Types de chambres": "Non spécifié",
@@ -1239,11 +1284,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 20.6296,
-    "lng": -87.0739
+    "lng": -87.0739,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Estival Almaris",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "Non spécifié",
     "Types de chambres": "Non spécifié",
@@ -1266,11 +1312,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Non spécifié",
     "lat": 36.834,
-    "lng": -2.4637
+    "lng": -2.4637,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Puente Real",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "204",
     "Types de chambres": "Individuelle, Double, Triple",
@@ -1293,11 +1340,12 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 36.7213,
-    "lng": -4.4213
+    "lng": -4.4213,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Marismas Andalucia",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "204",
     "Types de chambres": "Individuelle, Double, Triple",
@@ -1320,11 +1368,12 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 37.2614,
-    "lng": -6.9447
+    "lng": -6.9447,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Alua Tenerife",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "424",
     "Types de chambres": "Double, Familiale, Vue mer",
@@ -1347,11 +1396,12 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 28.4137,
-    "lng": -16.5492
+    "lng": -16.5492,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Maspalomas",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "Non spécifié",
     "Types de chambres": "Standard, Supérieure",
@@ -1374,11 +1424,12 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Disponible",
     "lat": 27.76,
-    "lng": -15.58
+    "lng": -15.58,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Kinetta",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "182",
     "Types de chambres": "Double, Familiale, Vue mer",
@@ -1401,11 +1452,12 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 37.7,
-    "lng": 23.5
+    "lng": 23.5,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Olympian Village",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "129",
     "Types de chambres": "Standard, Supérieure",
@@ -1428,11 +1480,12 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 38.1511,
-    "lng": 21.4256
+    "lng": 21.4256,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Roda Beach",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "684",
     "Types de chambres": "Double, Familiale, Vue mer",
@@ -1455,11 +1508,12 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 39.6243,
-    "lng": 19.9217
+    "lng": 19.9217,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Sun Palace",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "209",
     "Types de chambres": "Double, Familiale",
@@ -1482,11 +1536,12 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 36.8934,
-    "lng": 26.988
+    "lng": 26.988,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Ocean Heights View",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "Non spécifié",
     "Types de chambres": "Non spécifié",
@@ -1509,11 +1564,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Non spécifié",
     "lat": 35.31,
-    "lng": 25.39
+    "lng": 25.39,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Sol Marina Beach",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "130",
     "Types de chambres": "Double, Familiale",
@@ -1536,11 +1592,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 35.3387,
-    "lng": 25.1442
+    "lng": 25.1442,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Apollonia Beach",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "130",
     "Types de chambres": "Double, Familiale",
@@ -1563,11 +1620,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 35.3387,
-    "lng": 25.1442
+    "lng": 25.1442,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Amélia Mare",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "Non spécifié",
     "Types de chambres": "Non spécifié",
@@ -1590,11 +1648,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Non spécifié",
     "lat": 41.27,
-    "lng": 19.52
+    "lng": 19.52,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Makadi Oasis",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "Non spécifié",
     "Types de chambres": "Non spécifié",
@@ -1617,11 +1676,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Non spécifié",
     "lat": 27.2579,
-    "lng": 33.8116
+    "lng": 33.8116,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Neptune Beach",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "78",
     "Types de chambres": "Individuelle, Supérieure",
@@ -1644,11 +1704,12 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": -4.0435,
-    "lng": 39.6682
+    "lng": 39.6682,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Kiwengwa Beach Resort",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "222",
     "Types de chambres": "Double, Supérieure",
@@ -1671,11 +1732,12 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": -6.01,
-    "lng": 39.41
+    "lng": 39.41,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Belle Mare",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "234",
     "Types de chambres": "Double, Vue mer",
@@ -1698,11 +1760,12 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": -20.1929,
-    "lng": 57.7694
+    "lng": 57.7694,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Catalonia Bávaro",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "670",
     "Types de chambres": "Standard, Supérieure",
@@ -1725,11 +1788,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 18.3642,
-    "lng": -68.8385
+    "lng": -68.8385,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Viva Miches",
-    "Tour Operator": "Lookéa",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "670",
     "Types de chambres": "Standard, Supérieure",
@@ -1752,11 +1816,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 18.98,
-    "lng": -69.04
+    "lng": -69.04,
+    "Marque": "Lookéa"
   },
   {
     "Nom du club": "Pueblo Andaluz",
-    "Tour Operator": "Marmara",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "204",
     "Types de chambres": "triple, quadruple",
@@ -1779,11 +1844,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 36.49,
-    "lng": -4.99
+    "lng": -4.99,
+    "Marque": "Marmara"
   },
   {
     "Nom du club": "Palas Pineda",
-    "Tour Operator": "Marmara",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "452",
     "Types de chambres": "Standard, Supérieure",
@@ -1806,11 +1872,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 41.08,
-    "lng": 1.17
+    "lng": 1.17,
+    "Marque": "Marmara"
   },
   {
     "Nom du club": "Iconique Del Mar",
-    "Tour Operator": "Marmara",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "227",
     "Types de chambres": "Standard",
@@ -1833,11 +1900,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 39.54,
-    "lng": 3.33
+    "lng": 3.33,
+    "Marque": "Marmara"
   },
   {
     "Nom du club": "Oasis Menorca",
-    "Tour Operator": "Marmara",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "170",
     "Types de chambres": "Standard",
@@ -1860,11 +1928,12 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 39.87,
-    "lng": 3.82
+    "lng": 3.82,
+    "Marque": "Marmara"
   },
   {
     "Nom du club": "Iconique Sicilia",
-    "Tour Operator": "Marmara",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "314",
     "Types de chambres": "Villa",
@@ -1887,11 +1956,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 37.58,
-    "lng": 12.83
+    "lng": 12.83,
+    "Marque": "Marmara"
   },
   {
     "Nom du club": "Otrant Monténégro",
-    "Tour Operator": "Marmara",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "270",
     "Types de chambres": "Standard, Supérieure",
@@ -1914,11 +1984,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Disponible",
     "lat": 41.9297,
-    "lng": 19.2083
+    "lng": 19.2083,
+    "Marque": "Marmara"
   },
   {
     "Nom du club": "Golden Coast",
-    "Tour Operator": "Marmara",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "527",
     "Types de chambres": "Standard, Supérieure",
@@ -1941,11 +2012,12 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Disponible",
     "lat": 38.09,
-    "lng": 23.98
+    "lng": 23.98,
+    "Marque": "Marmara"
   },
   {
     "Nom du club": "King Saron",
-    "Tour Operator": "Marmara",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "182",
     "Types de chambres": "Standard, Supérieure",
@@ -1968,11 +2040,12 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 37.9386,
-    "lng": 22.9322
+    "lng": 22.9322,
+    "Marque": "Marmara"
   },
   {
     "Nom du club": "Long Beach",
-    "Tour Operator": "Marmara",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "129",
     "Types de chambres": "Standard, Supérieure",
@@ -1995,11 +2068,12 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 37.51,
-    "lng": 23.63
+    "lng": 23.63,
+    "Marque": "Marmara"
   },
   {
     "Nom du club": "Sandy Beach",
-    "Tour Operator": "Marmara",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "684",
     "Types de chambres": "vue mer partielle, Famille",
@@ -2022,11 +2096,12 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 39.71,
-    "lng": 19.86
+    "lng": 19.86,
+    "Marque": "Marmara"
   },
   {
     "Nom du club": "Athina Palace",
-    "Tour Operator": "Marmara",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "355",
     "Types de chambres": "familiale vue mer",
@@ -2049,11 +2124,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 35.36,
-    "lng": 24.86
+    "lng": 24.86,
+    "Marque": "Marmara"
   },
   {
     "Nom du club": "Zorbas Beach",
-    "Tour Operator": "Marmara",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "209",
     "Types de chambres": "Standard, Supérieure",
@@ -2076,11 +2152,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 36.92,
-    "lng": 27.04
+    "lng": 27.04,
+    "Marque": "Marmara"
   },
   {
     "Nom du club": "Iconique Doreta Beach",
-    "Tour Operator": "Marmara",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "390",
     "Types de chambres": "Non spécifié",
@@ -2103,11 +2180,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 36.4,
-    "lng": 28.05
+    "lng": 28.05,
+    "Marque": "Marmara"
   },
   {
     "Nom du club": "Yali",
-    "Tour Operator": "Marmara",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "343",
     "Types de chambres": "Familiale composée",
@@ -2130,11 +2208,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 38.06,
-    "lng": 26.97
+    "lng": 26.97,
+    "Marque": "Marmara"
   },
   {
     "Nom du club": "Madina",
-    "Tour Operator": "Marmara",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "432",
     "Types de chambres": "supérieure",
@@ -2157,11 +2236,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 31.6295,
-    "lng": -7.9811
+    "lng": -7.9811,
+    "Marque": "Marmara"
   },
   {
     "Nom du club": "Grand Bleu",
-    "Tour Operator": "Marmara",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "207",
     "Types de chambres": "Triple, Familiale, Vue mer",
@@ -2184,11 +2264,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 42.07,
-    "lng": 8.75
+    "lng": 8.75,
+    "Marque": "Marmara"
   },
   {
     "Nom du club": "Hyères",
-    "Tour Operator": "Marmara",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "285",
     "Types de chambres": "Double, Familiale",
@@ -2211,11 +2292,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 43.1204,
-    "lng": 6.1286
+    "lng": 6.1286,
+    "Marque": "Marmara"
   },
   {
     "Nom du club": "Gran Palas",
-    "Tour Operator": "Marmara",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "452",
     "Types de chambres": "Standard, Supérieure",
@@ -2238,11 +2320,12 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 41.1189,
-    "lng": 1.2445
+    "lng": 1.2445,
+    "Marque": "Marmara"
   },
   {
     "Nom du club": "Almuñecar",
-    "Tour Operator": "Marmara",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "204",
     "Types de chambres": "Individuelle, Double, Triple",
@@ -2265,11 +2348,12 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 36.7213,
-    "lng": -4.4213
+    "lng": -4.4213,
+    "Marque": "Marmara"
   },
   {
     "Nom du club": "Rethymnon Maravel",
-    "Tour Operator": "Marmara",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "130",
     "Types de chambres": "Double, Familiale",
@@ -2292,11 +2376,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 35.3387,
-    "lng": 25.1442
+    "lng": 25.1442,
+    "Marque": "Marmara"
   },
   {
     "Nom du club": "Les Magnolias",
-    "Tour Operator": "Marmara",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "Non spécifié",
     "Types de chambres": "Non spécifié",
@@ -2319,11 +2404,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Non spécifié",
     "lat": 42.27,
-    "lng": 27.75
+    "lng": 27.75,
+    "Marque": "Marmara"
   },
   {
     "Nom du club": "Cedriana",
-    "Tour Operator": "Marmara",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "Non spécifié",
     "Types de chambres": "Non spécifié",
@@ -2346,11 +2432,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Non spécifié",
     "lat": 33.8076,
-    "lng": 10.8451
+    "lng": 10.8451,
+    "Marque": "Marmara"
   },
   {
     "Nom du club": "Meninx Djerba",
-    "Tour Operator": "Marmara",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "Non spécifié",
     "Types de chambres": "Non spécifié",
@@ -2373,11 +2460,12 @@
     "Accès PMR": "Oui",
     "WiFi": "Non spécifié",
     "lat": 33.8076,
-    "lng": 10.8451
+    "lng": 10.8451,
+    "Marque": "Marmara"
   },
   {
     "Nom du club": "Hurghada",
-    "Tour Operator": "Marmara",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "202",
     "Types de chambres": "Familiale, Supérieure",
@@ -2400,16 +2488,17 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 27.2579,
-    "lng": 33.8116
+    "lng": 33.8116,
+    "Marque": "Marmara"
   },
   {
     "Nom du club": "Les Filaos",
-    "Tour Operator": "Marmara",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "196",
     "Types de chambres": "Standard, Supérieure",
     "Adult Only": "Non",
-    "Pays": "Cap-Vert",
+    "Pays": "Sénégal",
     "Ville": "Saly",
     "Accès direct à la mer": "Oui",
     "Service de transferts": "Non spécifié",
@@ -2427,11 +2516,12 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 14.45,
-    "lng": -17.01
+    "lng": -17.01,
+    "Marque": "Marmara"
   },
   {
     "Nom du club": "Catalonia Playa Maroma",
-    "Tour Operator": "Marmara",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "424",
     "Types de chambres": "Supérieure",
@@ -2454,11 +2544,12 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 20.74,
-    "lng": -86.96
+    "lng": -86.96,
+    "Marque": "Marmara"
   },
   {
     "Nom du club": "Viva Dominicus Beach",
-    "Tour Operator": "Marmara",
+    "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "670",
     "Types de chambres": "Standard, Supérieure",
@@ -2481,7 +2572,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 18.3642,
-    "lng": -68.8385
+    "lng": -68.8385,
+    "Marque": "Marmara"
   },
   {
     "Nom du club": "Mondi Club Best Delta",
@@ -2508,7 +2600,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 39.48,
-    "lng": 2.75
+    "lng": 2.75,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Best Jacaranda",
@@ -2535,7 +2628,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Disponible",
     "lat": 28.08,
-    "lng": -16.73
+    "lng": -16.73,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Broncemar Beach Suites",
@@ -2562,7 +2656,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 28.39,
-    "lng": -13.86
+    "lng": -13.86,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Relaxia Olivina",
@@ -2589,7 +2684,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Disponible",
     "lat": 28.92,
-    "lng": -13.66
+    "lng": -13.66,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Kipriotis Village Resort",
@@ -2616,7 +2712,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 36.87,
-    "lng": 27.01
+    "lng": 27.01,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Sunshine",
@@ -2643,7 +2740,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Disponible",
     "lat": 36.4,
-    "lng": 28.15
+    "lng": 28.15,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Grand Blue Sky International",
@@ -2670,7 +2768,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 37.8579,
-    "lng": 27.261
+    "lng": 27.261,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Water Side",
@@ -2697,7 +2796,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 36.7632,
-    "lng": 31.3897
+    "lng": 31.3897,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Ryads Parc",
@@ -2724,7 +2824,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 31.6295,
-    "lng": -7.9811
+    "lng": -7.9811,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Diar Lemdina",
@@ -2751,7 +2852,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 36.4,
-    "lng": 10.6169
+    "lng": 10.6169,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Thalassa Mahdia Aquapark",
@@ -2778,7 +2880,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Disponible",
     "lat": 35.5047,
-    "lng": 11.0622
+    "lng": 11.0622,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Seabel Aladin",
@@ -2805,7 +2908,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 33.8076,
-    "lng": 10.8451
+    "lng": 10.8451,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Zita Beach Resort",
@@ -2832,7 +2936,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 33.5034,
-    "lng": 11.1122
+    "lng": 11.1122,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Stella Di Mare Gardens",
@@ -2859,7 +2964,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 26.95,
-    "lng": 33.91
+    "lng": 33.91,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Serenade",
@@ -2886,7 +2992,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 18.5601,
-    "lng": -68.3725
+    "lng": -68.3725,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Zita Beach Resort",
@@ -2913,7 +3020,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Oui (parties communes)",
     "lat": 33.5034,
-    "lng": 11.1122
+    "lng": 11.1122,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Seabel Aladin",
@@ -2940,7 +3048,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Oui (réception et lobby bar)",
     "lat": 33.8076,
-    "lng": 10.8451
+    "lng": 10.8451,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Thalassa Mahdia Aquapark",
@@ -2967,7 +3076,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Oui (dans tout le club)",
     "lat": 35.5047,
-    "lng": 11.0622
+    "lng": 11.0622,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Shems Holiday Village",
@@ -2994,7 +3104,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Oui (parties communes)",
     "lat": 35.7643,
-    "lng": 10.8113
+    "lng": 10.8113,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club One Resort Jockey",
@@ -3021,7 +3132,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Oui (dans tout le club)",
     "lat": 35.7643,
-    "lng": 10.8113
+    "lng": 10.8113,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Africa Jade Thalasso",
@@ -3048,7 +3160,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Oui (dans tout le club)",
     "lat": 36.58,
-    "lng": 10.86
+    "lng": 10.86,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Medina Diar Lemdina",
@@ -3075,7 +3188,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Oui (dans tout le club)",
     "lat": 36.4,
-    "lng": 10.6169
+    "lng": 10.6169,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Shalimar",
@@ -3102,7 +3216,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Oui (réception et chambres)",
     "lat": 36.4,
-    "lng": 10.6169
+    "lng": 10.6169,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Nozha Beach Resort & Spa",
@@ -3129,7 +3244,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Oui (réception, chambres, bar)",
     "lat": 36.4,
-    "lng": 10.6169
+    "lng": 10.6169,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Ryads Parc & Spa",
@@ -3156,7 +3272,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Oui (dans tout le club)",
     "lat": 31.6295,
-    "lng": -7.9811
+    "lng": -7.9811,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club El Olivar",
@@ -3183,7 +3300,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Oui (dans tout le club)",
     "lat": 31.6295,
-    "lng": -7.9811
+    "lng": -7.9811,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Grand Blue Sky International",
@@ -3210,7 +3328,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Oui (dans tout le club)",
     "lat": 37.8579,
-    "lng": 27.261
+    "lng": 27.261,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club SL La Perla",
@@ -3237,7 +3356,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Oui (dans tout le club)",
     "lat": 36.5971,
-    "lng": 30.5567
+    "lng": 30.5567,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Sealife Kemer",
@@ -3264,7 +3384,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Oui (dans tout le club)",
     "lat": 36.5971,
-    "lng": 30.5567
+    "lng": 30.5567,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Water Side Resort & Spa",
@@ -3291,7 +3412,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Oui (dans tout le club)",
     "lat": 36.7632,
-    "lng": 31.3897
+    "lng": 31.3897,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Sealife Buket Resort & Beach",
@@ -3318,7 +3440,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Oui (dans tout le club)",
     "lat": 36.5437,
-    "lng": 31.9994
+    "lng": 31.9994,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Susesi Luxury Resort",
@@ -3345,7 +3468,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Oui (dans tout le club)",
     "lat": 36.8597,
-    "lng": 31.0547
+    "lng": 31.0547,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Stella Gardens Resort & Spa",
@@ -3372,7 +3496,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Oui (au lobby)",
     "lat": 26.95,
-    "lng": 33.91
+    "lng": 33.91,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Seven Seas Jolie Bay",
@@ -3399,7 +3524,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Oui (dans tout le club)",
     "lat": 27.2579,
-    "lng": 33.8116
+    "lng": 33.8116,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Saint Constantin Sea Hotel & Spa Resort",
@@ -3426,7 +3552,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit dans tout le club (avec supplément)",
     "lat": 35.2401,
-    "lng": 24.4709
+    "lng": 24.4709,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Kipriotis Village Resort",
@@ -3453,7 +3580,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Oui (dans tout le club)",
     "lat": 36.8934,
-    "lng": 26.988
+    "lng": 26.988,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Best Delta",
@@ -3480,7 +3608,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Oui (dans tout le club)",
     "lat": 39.5696,
-    "lng": 2.6502
+    "lng": 2.6502,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Best Jacaranda",
@@ -3507,7 +3636,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Oui (dans tout le club)",
     "lat": 28.2916,
-    "lng": -16.6291
+    "lng": -16.6291,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Broncemar Beach Suites",
@@ -3534,7 +3664,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Oui (dans tout le club)",
     "lat": 28.3587,
-    "lng": -14.0537
+    "lng": -14.0537,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Beatriz Costa & Spa",
@@ -3561,7 +3692,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Non spécifié",
     "lat": 28.963,
-    "lng": -13.5477
+    "lng": -13.5477,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Relaxia Olivina",
@@ -3588,7 +3720,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Oui (dans tout le club)",
     "lat": 28.963,
-    "lng": -13.5477
+    "lng": -13.5477,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Grand Sirenis Tropical & Aquagames",
@@ -3615,7 +3748,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Non spécifié",
     "lat": 18.5601,
-    "lng": -68.3725
+    "lng": -68.3725,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Serenade Punta Cana Beach & Spa Resort",
@@ -3642,7 +3776,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Non spécifié",
     "lat": 18.5601,
-    "lng": -68.3725
+    "lng": -68.3725,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Grand Sirenis Tropical & Aquagames",
@@ -3669,7 +3804,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit dans tout le club",
     "lat": 18.76,
-    "lng": -68.56
+    "lng": -68.56,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Serenade Punta Cana Beach & Spa",
@@ -3696,7 +3832,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit dans tout le club",
     "lat": 18.52,
-    "lng": -68.37
+    "lng": -68.37,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Grand Sirenis Tropical & Aqua Games",
@@ -3723,7 +3860,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Oui (dans tout le club)",
     "lat": 18.5601,
-    "lng": -68.3725
+    "lng": -68.3725,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Serenade Beach & Spa Resort",
@@ -3750,7 +3888,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Oui (dans tout le club)",
     "lat": 18.5601,
-    "lng": -68.3725
+    "lng": -68.3725,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club X10 Resort",
@@ -3777,7 +3916,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Non spécifié",
     "lat": 8.6525,
-    "lng": 98.244
+    "lng": 98.244,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Bangtao Beach",
@@ -3804,7 +3944,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Non spécifié",
     "lat": 7.8804,
-    "lng": 98.3923
+    "lng": 98.3923,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Sunshine Rhodes",
@@ -3831,7 +3972,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Oui (dans tout le club)",
     "lat": 36.4349,
-    "lng": 28.2176
+    "lng": 28.2176,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Saint Constantin Sea Hotel",
@@ -3858,7 +4000,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Oui (avec supplément)",
     "lat": 35.2401,
-    "lng": 24.4709
+    "lng": 24.4709,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Beatriz Costa",
@@ -3885,7 +4028,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Oui (dans tout le club)",
     "lat": 28.963,
-    "lng": -13.5477
+    "lng": -13.5477,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Mondi Club Sodankylä",
@@ -3912,7 +4056,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 67.416,
-    "lng": 26.5886
+    "lng": 26.5886,
+    "Marque": "Mondial Tourisme"
   },
   {
     "Nom du club": "Es Talaial",
@@ -3939,7 +4084,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 39.37,
-    "lng": 3.23
+    "lng": 3.23,
+    "Marque": "Naya Club"
   },
   {
     "Nom du club": "Osmine",
@@ -3966,7 +4112,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 42.79,
-    "lng": 17.88
+    "lng": 17.88,
+    "Marque": "Naya Club"
   },
   {
     "Nom du club": "Astir Beach",
@@ -3993,7 +4140,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 35.32,
-    "lng": 25.29
+    "lng": 25.29,
+    "Marque": "Naya Club"
   },
   {
     "Nom du club": "Orangers Beach Resort",
@@ -4020,7 +4168,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 36.4,
-    "lng": 10.6169
+    "lng": 10.6169,
+    "Marque": "Naya Club"
   },
   {
     "Nom du club": "Paradis Palace",
@@ -4047,7 +4196,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 36.4,
-    "lng": 10.6169
+    "lng": 10.6169,
+    "Marque": "Naya Club"
   },
   {
     "Nom du club": "Palm Azur",
@@ -4074,7 +4224,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 33.8076,
-    "lng": 10.8451
+    "lng": 10.8451,
+    "Marque": "Naya Club"
   },
   {
     "Nom du club": "Alua Sun Costa Park",
@@ -4101,7 +4252,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 36.6222,
-    "lng": -4.4997
+    "lng": -4.4997,
+    "Marque": "Ôclub"
   },
   {
     "Nom du club": "Occidental Cala Viñas",
@@ -4128,7 +4280,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 39.52,
-    "lng": 2.5
+    "lng": 2.5,
+    "Marque": "Ôclub"
   },
   {
     "Nom du club": "Dreams Calvia Mallorca",
@@ -4155,7 +4308,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 39.5,
-    "lng": 2.53
+    "lng": 2.53,
+    "Marque": "Ôclub"
   },
   {
     "Nom du club": "Alua Suites Las Rocas",
@@ -4182,7 +4336,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 39.37,
-    "lng": 3.23
+    "lng": 3.23,
+    "Marque": "Ôclub"
   },
   {
     "Nom du club": "Occidental Menorca",
@@ -4209,7 +4364,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Disponible",
     "lat": 39.82,
-    "lng": 4.27
+    "lng": 4.27,
+    "Marque": "Ôclub"
   },
   {
     "Nom du club": "Alua Atlantico Golf Resort",
@@ -4236,7 +4392,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 28.09,
-    "lng": -16.62
+    "lng": -16.62,
+    "Marque": "Ôclub"
   },
   {
     "Nom du club": "Parque Vacacional Eden",
@@ -4263,7 +4420,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 28.4137,
-    "lng": -16.5492
+    "lng": -16.5492,
+    "Marque": "Ôclub"
   },
   {
     "Nom du club": "Abora Catarina",
@@ -4290,7 +4448,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 27.7545,
-    "lng": -15.5763
+    "lng": -15.5763,
+    "Marque": "Ôclub"
   },
   {
     "Nom du club": "Select Tabaïba Princess",
@@ -4317,7 +4476,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Disponible",
     "lat": 27.76,
-    "lng": -15.58
+    "lng": -15.58,
+    "Marque": "Ôclub"
   },
   {
     "Nom du club": "Livvo Jandia Golf",
@@ -4344,7 +4504,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Disponible",
     "lat": 28.05,
-    "lng": -14.35
+    "lng": -14.35,
+    "Marque": "Ôclub"
   },
   {
     "Nom du club": "Occidental Jandia Mar",
@@ -4371,7 +4532,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 28.05,
-    "lng": -14.35
+    "lng": -14.35,
+    "Marque": "Ôclub"
   },
   {
     "Nom du club": "Select Fuerteventua Princess",
@@ -4398,7 +4560,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Disponible",
     "lat": 28.06,
-    "lng": -14.32
+    "lng": -14.32,
+    "Marque": "Ôclub"
   },
   {
     "Nom du club": "Shb Royal Monica",
@@ -4425,7 +4588,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 28.86,
-    "lng": -13.83
+    "lng": -13.83,
+    "Marque": "Ôclub"
   },
   {
     "Nom du club": "Thb Tropical Island",
@@ -4452,7 +4616,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 28.86,
-    "lng": -13.83
+    "lng": -13.83,
+    "Marque": "Ôclub"
   },
   {
     "Nom du club": "Cala Fiorita",
@@ -4479,7 +4644,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 40.7,
-    "lng": 9.71
+    "lng": 9.71,
+    "Marque": "Ôclub"
   },
   {
     "Nom du club": "Voi Alimini Resort",
@@ -4506,7 +4672,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 40.2,
-    "lng": 18.45
+    "lng": 18.45,
+    "Marque": "Ôclub"
   },
   {
     "Nom du club": "Zen Royal G Max",
@@ -4533,7 +4700,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 41.27,
-    "lng": 19.52
+    "lng": 19.52,
+    "Marque": "Ôclub"
   },
   {
     "Nom du club": "Iolida",
@@ -4560,7 +4728,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 39.68,
-    "lng": 19.85
+    "lng": 19.85,
+    "Marque": "Ôclub"
   },
   {
     "Nom du club": "Stella Village Seaside",
@@ -4587,7 +4756,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 35.31,
-    "lng": 25.27
+    "lng": 25.27,
+    "Marque": "Ôclub"
   },
   {
     "Nom du club": "Select Mitsis Royal Mare",
@@ -4614,7 +4784,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Disponible",
     "lat": 35.315,
-    "lng": 25.395
+    "lng": 25.395,
+    "Marque": "Ôclub"
   },
   {
     "Nom du club": "Aqua Fun Club",
@@ -4641,7 +4812,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 31.6295,
-    "lng": -7.9811
+    "lng": -7.9811,
+    "Marque": "Ôclub"
   },
   {
     "Nom du club": "Select Pickalbatros Palais Des Roses",
@@ -4668,7 +4840,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 30.4278,
-    "lng": -9.5981
+    "lng": -9.5981,
+    "Marque": "Ôclub"
   },
   {
     "Nom du club": "Sentido Bellevue Park",
@@ -4695,7 +4868,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 35.89,
-    "lng": 10.59
+    "lng": 10.59,
+    "Marque": "Ôclub"
   },
   {
     "Nom du club": "Select Ja Lake View",
@@ -4722,7 +4896,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 25.2048,
-    "lng": 55.2708
+    "lng": 55.2708,
+    "Marque": "Ôclub"
   },
   {
     "Nom du club": "Royalton Splash Punta Cana",
@@ -4749,7 +4924,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 18.5601,
-    "lng": -68.3725
+    "lng": -68.3725,
+    "Marque": "Ôclub"
   },
   {
     "Nom du club": "Zen Pearl Beach Resort Zanzibar",
@@ -4776,7 +4952,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": -6.14,
-    "lng": 39.5
+    "lng": 39.5,
+    "Marque": "Ôclub"
   },
   {
     "Nom du club": "Alvor Baia",
@@ -4803,7 +4980,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 37.1322,
-    "lng": -8.595
+    "lng": -8.595,
+    "Marque": "Top of Travel"
   },
   {
     "Nom du club": "Baiamalva Resort",
@@ -4830,7 +5008,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 40.26,
-    "lng": 17.89
+    "lng": 17.89,
+    "Marque": "Top of Travel"
   },
   {
     "Nom du club": "Émotion Salini Resort",
@@ -4857,7 +5036,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 35.9508,
-    "lng": 14.4133
+    "lng": 14.4133,
+    "Marque": "Top of Travel"
   },
   {
     "Nom du club": "Morenia",
@@ -4884,7 +5064,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 43.19,
-    "lng": 17.11
+    "lng": 17.11,
+    "Marque": "Top of Travel"
   },
   {
     "Nom du club": "Delfin",
@@ -4911,7 +5092,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 42.46,
-    "lng": 18.67
+    "lng": 18.67,
+    "Marque": "Top of Travel"
   },
   {
     "Nom du club": "Akamanthea Holiday Village",
@@ -4920,7 +5102,7 @@
     "Nombre de chambres": "Non spécifié",
     "Types de chambres": "Standard, Supérieure",
     "Adult Only": "Non",
-    "Pays": "Turquie",
+    "Pays": "Chypre",
     "Ville": "Latchi",
     "Accès direct à la mer": "Non spécifié",
     "Service de transferts": "Non spécifié",
@@ -4938,7 +5120,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 35.04,
-    "lng": 32.39
+    "lng": 32.39,
+    "Marque": "Top of Travel"
   },
   {
     "Nom du club": "Dom Pedro Madeira Ocean Beach Hotel",
@@ -4965,7 +5148,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Non spécifié",
     "lat": 32.715,
-    "lng": -16.76
+    "lng": -16.76,
+    "Marque": "Top of Travel"
   },
   {
     "Nom du club": "Blue Bay resort",
@@ -4992,7 +5176,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 35.25,
-    "lng": 25.73
+    "lng": 25.73,
+    "Marque": "Top of Travel"
   },
   {
     "Nom du club": "Salini resort & spa",
@@ -5019,7 +5204,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Non spécifié",
     "lat": 35.95,
-    "lng": 14.3968
+    "lng": 14.3968,
+    "Marque": "Top of Travel"
   },
   {
     "Nom du club": "VM Resort",
@@ -5046,7 +5232,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 40.42,
-    "lng": 19.33
+    "lng": 19.33,
+    "Marque": "Top of Travel"
   },
   {
     "Nom du club": "Pestana Royal Ocean & Spa Resort",
@@ -5073,7 +5260,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 32.6669,
-    "lng": -16.9241
+    "lng": -16.9241,
+    "Marque": "Top of Travel"
   },
   {
     "Nom du club": "Medena",
@@ -5100,7 +5288,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
     "lat": 43.5172,
-    "lng": 16.2511
+    "lng": 16.2511,
+    "Marque": "Top of Travel"
   },
   {
     "Nom du club": "Ariel Cala d'Or",
@@ -5127,7 +5316,8 @@
     "Accès PMR": "Oui",
     "WiFi": "Non spécifié",
     "lat": 39.37,
-    "lng": 3.23
+    "lng": 3.23,
+    "Marque": "Top of Travel"
   },
   {
     "Nom du club": "Mon French Club Sol Azur Beach",
@@ -5154,7 +5344,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 36.4,
-    "lng": 10.6169
+    "lng": 10.6169,
+    "Marque": "Mon French Club"
   },
   {
     "Nom du club": "Mon French Club Djerba Golf Resort & Spa",
@@ -5181,7 +5372,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Disponible",
     "lat": 33.8076,
-    "lng": 10.8451
+    "lng": 10.8451,
+    "Marque": "Mon French Club"
   },
   {
     "Nom du club": "Mon French Club Azul Hotel",
@@ -5208,7 +5400,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 35.366,
-    "lng": 24.4731
+    "lng": 24.4731,
+    "Marque": "Mon French Club"
   },
   {
     "Nom du club": "Mon French Club Atlantica Akti Zeus",
@@ -5235,7 +5428,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Disponible",
     "lat": 35.3285,
-    "lng": 25.0969
+    "lng": 25.0969,
+    "Marque": "Mon French Club"
   },
   {
     "Nom du club": "Mon French Club Mövenpick Resort Soma Bay",
@@ -5262,7 +5456,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 26.85,
-    "lng": 33.97
+    "lng": 33.97,
+    "Marque": "Mon French Club"
   },
   {
     "Nom du club": "Mon French Club Novotel Resort",
@@ -5289,7 +5484,8 @@
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "lat": 25.0681,
-    "lng": 34.8981
+    "lng": 34.8981,
+    "Marque": "Mon French Club"
   },
   {
     "Nom du club": "Mon French Club Mandarin Resort",
@@ -5316,11 +5512,12 @@
     "Accès PMR": "Non adapté",
     "WiFi": "Gratuit",
     "lat": -6.41,
-    "lng": 39.46
+    "lng": 39.46,
+    "Marque": "Mon French Club"
   },
   {
     "Nom du club": "Radison Blu Abu Dhabi Corniche",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "346",
     "Types de chambres": "Standard (premium)",
@@ -5343,11 +5540,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Non spécifié",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Fllad Resort",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "132",
     "Types de chambres": "Standard",
@@ -5370,11 +5568,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Henry & Spa",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "108",
     "Types de chambres": "Standard",
@@ -5397,11 +5596,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "AluaSun Marbella Park",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "317",
     "Types de chambres": "Standard",
@@ -5424,11 +5624,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Barcelo Isla Canela",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "349",
     "Types de chambres": "Standard (premium)",
@@ -5451,11 +5652,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Smy Isla Cristina",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "343",
     "Types de chambres": "Standard",
@@ -5478,11 +5680,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Bali Tropic Resort & Spa",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "150",
     "Types de chambres": "Standard (évasion)",
@@ -5505,11 +5708,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Non spécifié",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Arabella",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "294",
     "Types de chambres": "Standard",
@@ -5532,11 +5736,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Oasis Belorizonte",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "431",
     "Types de chambres": "Standard",
@@ -5559,11 +5764,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "VOI Praia de Chaves Resort",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "276",
     "Types de chambres": "Standard",
@@ -5586,11 +5792,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: Anim. internationale",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Louis Ledra Beach",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "269",
     "Types de chambres": "Standard (évasion)",
@@ -5613,11 +5820,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Kapetanios Aqua Resort",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "149",
     "Types de chambres": "Standard (évasion)",
@@ -5640,11 +5848,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Non spécifié",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Pernera Beach",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "235",
     "Types de chambres": "Standard",
@@ -5667,11 +5876,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. internationale",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Aeolos Beach Resort",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "437",
     "Types de chambres": "Standard (premium)",
@@ -5694,11 +5904,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Mitsis Messonghi Beach",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "960",
     "Types de chambres": "Standard",
@@ -5721,11 +5932,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Marina Viva",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "378",
     "Types de chambres": "Standard",
@@ -5748,11 +5960,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Paese di Lava",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "157",
     "Types de chambres": "Standard",
@@ -5775,16 +5988,17 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: Anim. internationale",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Grand Hotel Neum",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "380",
     "Types de chambres": "Standard",
     "Adult Only": "Non",
-    "Pays": "Croatie",
+    "Pays": "Bosnie-Herzégovine",
     "Ville": "Neum",
     "lat": 42.9267,
     "lng": 17.615,
@@ -5802,11 +6016,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Best Negresco",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "312",
     "Types de chambres": "Standard",
@@ -5829,11 +6044,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. internationale, Ados: Anim. internationale",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Annabelle Beach Resort",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "272",
     "Types de chambres": "Standard",
@@ -5856,11 +6072,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Aquila Rithymna Beach",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "512",
     "Types de chambres": "Standard (premium)",
@@ -5883,11 +6100,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Mare Blue",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "219",
     "Types de chambres": "Standard",
@@ -5910,11 +6128,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Mare Monte",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "200",
     "Types de chambres": "Standard",
@@ -5937,11 +6156,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Mirabello Bay Luxury Resort",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "343",
     "Types de chambres": "Standard (premium)",
@@ -5964,11 +6184,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. internationale",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Miramare Resort & Spa",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "288",
     "Types de chambres": "Standard (évasion)",
@@ -5991,11 +6212,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Non spécifié",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Mitsis Bali Paradise",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "236",
     "Types de chambres": "Standard",
@@ -6018,11 +6240,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Out of the Blue Resort",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "460",
     "Types de chambres": "Standard (premium)",
@@ -6045,11 +6268,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Sitia Beach",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "161",
     "Types de chambres": "Standard",
@@ -6072,11 +6296,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Stella Blue",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "221",
     "Types de chambres": "Standard (évasion)",
@@ -6099,11 +6324,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Non spécifié",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Waterman Kaktus Resort",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "243",
     "Types de chambres": "Standard",
@@ -6126,11 +6352,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Sol Palmeras",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "608",
     "Types de chambres": "Standard (évasion)",
@@ -6153,11 +6380,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. internationale",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "JA Beach Hotel",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "235",
     "Types de chambres": "Standard (premium)",
@@ -6180,11 +6408,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. internationale",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Riu Dubai",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "787",
     "Types de chambres": "Standard (évasion)",
@@ -6207,11 +6436,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. internationale",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Continental Hurghada",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "252",
     "Types de chambres": "Standard",
@@ -6234,11 +6464,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Swiss Inn Resort",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "401",
     "Types de chambres": "Standard",
@@ -6261,11 +6492,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. internationale",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Elba Carlota",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "346",
     "Types de chambres": "Standard",
@@ -6288,11 +6520,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Abora Interclub Atlantic",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "395",
     "Types de chambres": "Standard",
@@ -6315,11 +6548,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Princess Taurito",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "404",
     "Types de chambres": "Standard (premium)",
@@ -6342,11 +6576,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Comer Poseidon Club",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "157",
     "Types de chambres": "Standard",
@@ -6369,11 +6604,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Dolce Attica Riviera",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "350",
     "Types de chambres": "Standard",
@@ -6396,11 +6632,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Elion Seaside Resort",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "105",
     "Types de chambres": "Standard",
@@ -6423,11 +6660,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Eretria Hotel & Spa",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "220",
     "Types de chambres": "Standard",
@@ -6450,11 +6688,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Palmariva Beach",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "274",
     "Types de chambres": "Standard",
@@ -6477,11 +6716,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Invisa Cala Blanca",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "448",
     "Types de chambres": "Standard",
@@ -6504,11 +6744,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Invisa Cala Verde",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "257",
     "Types de chambres": "Standard (premium)",
@@ -6531,11 +6772,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Acqua di Venere",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "188",
     "Types de chambres": "Standard",
@@ -6558,11 +6800,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "TH Marina di Pisticci",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "400",
     "Types de chambres": "Standard",
@@ -6585,11 +6828,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: italien",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Bakour Lanzarote Splash",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "148",
     "Types de chambres": "Standard",
@@ -6612,11 +6856,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Los Zocos Impressive Resort",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "324",
     "Types de chambres": "Standard",
@@ -6639,11 +6884,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Vitalclass Lanzarote",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "150",
     "Types de chambres": "Standard (évasion)",
@@ -6666,11 +6912,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. internationale",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Calheta Beach",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "153",
     "Types de chambres": "Standard",
@@ -6693,11 +6940,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. internationale",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Pestana Ocean Bay",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "223",
     "Types de chambres": "Standard (évasion)",
@@ -6720,11 +6968,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Non spécifié",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Blau Punta Reina Family Resort",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "812",
     "Types de chambres": "Standard (premium)",
@@ -6747,19 +6996,20 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Globales Maioris",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "238",
     "Types de chambres": "Standard",
     "Adult Only": "Non",
     "Pays": "Espagne",
     "Ville": "Cala d'Or",
-    "lat": 39.37,
-    "lng": 3.23,
+    "lat": 39.3694,
+    "lng": 3.2333,
     "Accès direct à la mer": "crique à 900 m plage à 6 km",
     "Service de transferts": "Disponible",
     "All Inclusive": "Oui",
@@ -6774,11 +7024,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Globales Samoa",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "331",
     "Types de chambres": "Standard",
@@ -6801,19 +7052,20 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Canareef Resort",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "271 villas",
     "Types de chambres": "Standard (évasion)",
     "Adult Only": "Non",
     "Pays": "Maldives",
     "Ville": "Maldives",
-    "lat": 4.1755,
-    "lng": 73.5093,
+    "lat": -0.6235,
+    "lng": 73.1736,
     "Accès direct à la mer": "direct",
     "Service de transferts": "Disponible",
     "All Inclusive": "Oui",
@@ -6828,19 +7080,20 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Non spécifié",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "SAii Lagoon Curio by Hilton",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "198",
     "Types de chambres": "Standard (évasion)",
     "Adult Only": "Non",
     "Pays": "Maldives",
     "Ville": "Malé",
-    "lat": 4.1755,
-    "lng": 73.5093,
+    "lat": 4.0778,
+    "lng": 73.5371,
     "Accès direct à la mer": "direct",
     "Service de transferts": "Disponible",
     "All Inclusive": "Oui",
@@ -6855,11 +7108,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. internationale",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Kenzi Europa",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "236",
     "Types de chambres": "Standard",
@@ -6882,11 +7136,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Les Idrissides Aqua Parc",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "302",
     "Types de chambres": "Standard",
@@ -6909,11 +7164,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Marrakech Ryads Parc & Spa",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "260",
     "Types de chambres": "Standard (évasion)",
@@ -6936,11 +7192,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. internationale",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Club Sungo by Pickalbatros",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "341",
     "Types de chambres": "Standard (premium)",
@@ -6963,11 +7220,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Royal Tafoukt Agadir",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "256",
     "Types de chambres": "Standard",
@@ -6990,11 +7248,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Sol Oasis Marrakech",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "211",
     "Types de chambres": "Standard (premium)",
@@ -7017,11 +7276,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Casuarina Resort & Spa",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "130",
     "Types de chambres": "Standard",
@@ -7044,11 +7304,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Non spécifié",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "InterContinental Mauritius Resort",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "210",
     "Types de chambres": "Standard (premium)",
@@ -7071,11 +7332,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. internationale",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Ocean's Creek",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "136",
     "Types de chambres": "Standard (évasion)",
@@ -7098,11 +7360,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. internationale",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Riu Turquoise",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "390",
     "Types de chambres": "Standard (premium)",
@@ -7125,11 +7388,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. internationale",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Villas Caroline",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "75",
     "Types de chambres": "Standard (évasion)",
@@ -7152,11 +7416,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Tulum Riviera",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "96",
     "Types de chambres": "Standard (évasion)",
@@ -7179,11 +7444,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Non spécifié",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Viva Maya by Wyndham",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "604",
     "Types de chambres": "Standard (évasion)",
@@ -7206,11 +7472,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. internationale",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Globales Almirante Farragut",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "493",
     "Types de chambres": "Standard",
@@ -7233,11 +7500,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Minura Sur Menorca",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "207",
     "Types de chambres": "Standard",
@@ -7260,11 +7528,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Bijela Park",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "282",
     "Types de chambres": "Standard",
@@ -7287,11 +7556,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Kumbor",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "285",
     "Types de chambres": "Standard",
@@ -7314,11 +7584,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Albufeira Sol Hotel & Spa",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "188",
     "Types de chambres": "Standard",
@@ -7341,11 +7612,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Portimão",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "104",
     "Types de chambres": "Standard (évasion)",
@@ -7368,11 +7640,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Non spécifié",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Bakour Punta Cana Suites",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "105",
     "Types de chambres": "Standard (évasion)",
@@ -7395,11 +7668,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Non spécifié",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Catalonia Bayahibe",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "353",
     "Types de chambres": "Standard",
@@ -7422,11 +7696,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Tropical Deluxe Princess",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "310",
     "Types de chambres": "Standard (premium)",
@@ -7449,11 +7724,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: Anim. internationale",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Electra Palace",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "302",
     "Types de chambres": "Standard (premium)",
@@ -7476,11 +7752,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Kiotari Miraluna Beach Resort",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "410",
     "Types de chambres": "Standard",
@@ -7503,11 +7780,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Nautica Blue Resort & Spa",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "305",
     "Types de chambres": "Standard",
@@ -7530,11 +7808,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Sunrise Beach Resort",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "230",
     "Types de chambres": "Standard (évasion)",
@@ -7557,19 +7836,20 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. internationale",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Del Golfo",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "114",
     "Types de chambres": "Standard",
     "Adult Only": "Non",
     "Pays": "Italie",
     "Ville": "Sardaigne",
-    "lat": 39.2238,
-    "lng": 9.1217,
+    "lat": 39.93,
+    "lng": 8.48,
     "Accès direct à la mer": "direct",
     "Service de transferts": "Disponible",
     "All Inclusive": "Oui",
@@ -7584,11 +7864,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: Anim. internationale",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Phi Hotel Sighientu",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "225",
     "Types de chambres": "Standard",
@@ -7611,11 +7892,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Sardinia Resort",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "545",
     "Types de chambres": "Standard (premium)",
@@ -7638,11 +7920,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Non spécifié",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Palm Beach",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "268",
     "Types de chambres": "Standard",
@@ -7665,11 +7948,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Riu Baobab",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "524",
     "Types de chambres": "Standard (premium)",
@@ -7692,11 +7976,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. internationale",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Cala Regina",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "188",
     "Types de chambres": "Standard",
@@ -7719,11 +8004,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Conte di Cabrera",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "190",
     "Types de chambres": "Standard",
@@ -7746,11 +8032,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Costanza Selinunte",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "187",
     "Types de chambres": "Standard",
@@ -7773,11 +8060,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Himera Beach Club",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "148",
     "Types de chambres": "Standard",
@@ -7800,11 +8088,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: Anim. internationale",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Turyaa Kalutara",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "199",
     "Types de chambres": "Standard (évasion)",
@@ -7827,11 +8116,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Non spécifié",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Allegro Isora",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "312",
     "Types de chambres": "Standard",
@@ -7854,11 +8144,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "H10 Costa Adeje Palace",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "467",
     "Types de chambres": "Standard (premium)",
@@ -7881,11 +8172,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. internationale",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Hovima Suites Costa Adeje",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "440",
     "Types de chambres": "Standard",
@@ -7908,11 +8200,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Kalima Resort Khao Lak",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "231",
     "Types de chambres": "Standard (premium)",
@@ -7935,11 +8228,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. internationale",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Estella Phuket Mai Khao Beach Resort",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "96",
     "Types de chambres": "Standard (évasion)",
@@ -7962,11 +8256,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Non spécifié",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Alhambra Thalasso Hammamet",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "184",
     "Types de chambres": "Standard",
@@ -7989,11 +8284,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Al Jazira Beach & Spa",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "275",
     "Types de chambres": "Standard",
@@ -8016,11 +8312,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Djerba Holiday Beach",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "297",
     "Types de chambres": "Standard",
@@ -8043,11 +8340,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Golf Beach & Spa",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "270",
     "Types de chambres": "Standard",
@@ -8070,11 +8368,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Iliade Aquapark Djerba",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "315",
     "Types de chambres": "Standard (premium)",
@@ -8097,11 +8396,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Khayam Garden Beach Resort & Spa",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "361",
     "Types de chambres": "Standard",
@@ -8124,11 +8424,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Medina Belisaire & Thalasso",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "276",
     "Types de chambres": "Standard",
@@ -8151,11 +8452,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Palm Beach Djerba",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "298",
     "Types de chambres": "Standard",
@@ -8178,11 +8480,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Regency Hotel & Spa",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "195",
     "Types de chambres": "Standard",
@@ -8205,11 +8508,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Royal Karthago Resort & Thalasso",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "461",
     "Types de chambres": "Standard",
@@ -8232,11 +8536,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM, Ados: FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Telemaque Beach & Spa",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "216",
     "Types de chambres": "Standard (premium)",
@@ -8259,11 +8564,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Non spécifié",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Infinity by Yelken Aquapark & Resort",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "361",
     "Types de chambres": "Standard",
@@ -8286,11 +8592,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Kastalia Holiday Village",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "416",
     "Types de chambres": "Standard",
@@ -8313,11 +8620,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Ma Biche Kemer",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "350",
     "Types de chambres": "Standard",
@@ -8340,11 +8648,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: Anim. FRAM",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "VOI Kiwengwa Beach Resort",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "200",
     "Types de chambres": "Standard (évasion)",
@@ -8367,11 +8676,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Non spécifié",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Paje Palms Beach Resort",
-    "Tour Operator": "Framissima",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "65",
     "Types de chambres": "Standard (évasion)",
@@ -8394,11 +8704,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Non spécifié",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Framissima"
   },
   {
     "Nom du club": "Traders Hotel Qaryat Al Beri",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "301",
     "Types de chambres": "Standard",
@@ -8421,11 +8732,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Lotus Beach",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "99",
     "Types de chambres": "Standard",
@@ -8448,11 +8760,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Perandor Beach",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "100",
     "Types de chambres": "Standard",
@@ -8475,11 +8788,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Best Alcazar",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "396",
     "Types de chambres": "Standard",
@@ -8502,11 +8816,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Palia Las Palomas",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "309",
     "Types de chambres": "Standard",
@@ -8529,11 +8844,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Oh Nice Costa del Sol",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "301",
     "Types de chambres": "Standard",
@@ -8556,11 +8872,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Parasol by Dorobe",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "176",
     "Types de chambres": "Standard",
@@ -8583,11 +8900,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Cynthiana Beach",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "230",
     "Types de chambres": "Standard",
@@ -8610,11 +8928,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Marina Viva Résidence",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "120",
     "Types de chambres": "Standard",
@@ -8637,11 +8956,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Albir Garden",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "388",
     "Types de chambres": "Standard",
@@ -8664,11 +8984,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "MedPlaya Calypso",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "521",
     "Types de chambres": "Standard",
@@ -8691,11 +9012,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Elounda Residence Hotel & Water Park",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "196",
     "Types de chambres": "Standard",
@@ -8718,11 +9040,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Magda",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "149",
     "Types de chambres": "Standard",
@@ -8745,11 +9068,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Sunshine Village",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "100",
     "Types de chambres": "Standard",
@@ -8772,11 +9096,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Quercus",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "96",
     "Types de chambres": "Standard",
@@ -8799,11 +9124,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: inter",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Amwaj Beach Club Abu Soma",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "378",
     "Types de chambres": "Standard",
@@ -8826,11 +9152,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Bellagio Beach Resort & Spa",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "445",
     "Types de chambres": "Standard",
@@ -8853,19 +9180,20 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Bakour Fuerteventura La Pared",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "103",
     "Types de chambres": "Standard",
     "Adult Only": "Non",
     "Pays": "Espagne",
     "Ville": "Fuerteventura",
-    "lat": 28.12,
-    "lng": -14.22,
+    "lat": 28.2167,
+    "lng": -14.2167,
     "Accès direct à la mer": "à 600 m",
     "Service de transferts": "Disponible",
     "All Inclusive": "Oui",
@@ -8880,19 +9208,20 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Royal Suite",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "166",
     "Types de chambres": "Standard",
     "Adult Only": "Non",
     "Pays": "Espagne",
     "Ville": "Fuerteventura",
-    "lat": 28.38,
-    "lng": -14.05,
+    "lat": 28.0632,
+    "lng": -14.3347,
     "Accès direct à la mer": "à 1 km",
     "Service de transferts": "Disponible",
     "All Inclusive": "Oui",
@@ -8907,11 +9236,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: inter",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Mogan Princess & Beach Club",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "212",
     "Types de chambres": "Standard",
@@ -8934,11 +9264,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Miramare",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "94",
     "Types de chambres": "Standard",
@@ -8961,11 +9292,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Petit Village",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "55",
     "Types de chambres": "Standard",
@@ -8988,11 +9320,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Globales Montemar",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "194",
     "Types de chambres": "Standard",
@@ -9015,11 +9348,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Watamu Resort",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "128",
     "Types de chambres": "Standard",
@@ -9042,11 +9376,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Enfants: inter",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Castell dels Hams",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "277",
     "Types de chambres": "Standard",
@@ -9069,11 +9404,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Mariant Park",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "166",
     "Types de chambres": "Standard",
@@ -9096,11 +9432,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Palia Dolce Farniente",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "300",
     "Types de chambres": "Standard",
@@ -9123,11 +9460,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Palia Puerto del Sol",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "227",
     "Types de chambres": "Standard",
@@ -9150,11 +9488,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Paradise Bay",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "276",
     "Types de chambres": "Standard",
@@ -9177,11 +9516,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Allegro Agadir",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "321",
     "Types de chambres": "Standard",
@@ -9204,11 +9544,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Non spécifié",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Targa Aqua Parc Resort",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "239",
     "Types de chambres": "Standard",
@@ -9231,11 +9572,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Non spécifié",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Tarisa Resort & Spa",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "75",
     "Types de chambres": "Standard",
@@ -9258,11 +9600,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Riu Lupita",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "300",
     "Types de chambres": "Standard",
@@ -9285,11 +9628,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Globales Binimar",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "405",
     "Types de chambres": "Standard",
@@ -9312,11 +9656,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Sol Parc",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "272",
     "Types de chambres": "Standard",
@@ -9339,11 +9684,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Clube Vilarosa",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "80",
     "Types de chambres": "Standard",
@@ -9366,11 +9712,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Vista Sol Punta Cana",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "548",
     "Types de chambres": "Standard",
@@ -9393,11 +9740,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Cyprotel Faliraki",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "375",
     "Types de chambres": "Standard",
@@ -9420,11 +9768,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Castelsardo",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "135",
     "Types de chambres": "Standard",
@@ -9447,11 +9796,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Cefalu",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "130",
     "Types de chambres": "Standard",
@@ -9474,11 +9824,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Dolcestate",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "82",
     "Types de chambres": "Standard",
@@ -9501,11 +9852,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Eloro",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "247",
     "Types de chambres": "Standard",
@@ -9528,11 +9880,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Lipari",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "207",
     "Types de chambres": "Standard",
@@ -9555,11 +9908,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Catalonia Punta del Rey",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "432",
     "Types de chambres": "Standard",
@@ -9582,11 +9936,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Globales Tamaimo Tropical",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "372",
     "Types de chambres": "Standard",
@@ -9609,11 +9964,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Palm Galleria Resort",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "98",
     "Types de chambres": "Standard",
@@ -9636,11 +9992,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Dar Khayam",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "321",
     "Types de chambres": "Standard",
@@ -9663,11 +10020,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Djerba Resort",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "416",
     "Types de chambres": "Standard",
@@ -9690,11 +10048,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Hammamet Beach",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "345",
     "Types de chambres": "Standard",
@@ -9717,11 +10076,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Méditerranée Thalasso Golf",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "339",
     "Types de chambres": "Standard",
@@ -9744,11 +10104,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Venice Beach",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 3,
     "Nombre de chambres": "159",
     "Types de chambres": "Standard",
@@ -9771,11 +10132,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Zodiac",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "219",
     "Types de chambres": "Standard",
@@ -9798,11 +10160,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Kaia Coracesium",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 4,
     "Nombre de chambres": "327",
     "Types de chambres": "Standard",
@@ -9825,11 +10188,12 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Unique Residences Golf & Spa",
-    "Tour Operator": "Club Jumbo",
+    "Tour Operator": "FRAM",
     "Nombre d'étoiles": 5,
     "Nombre de chambres": "250",
     "Types de chambres": "Standard",
@@ -9852,7 +10216,8 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Club enfants",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Gratuit"
+    "WiFi": "Gratuit",
+    "Marque": "Club Jumbo"
   },
   {
     "Nom du club": "Mon French Club Nile Azur",
@@ -9879,7 +10244,8 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Non",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Non spécifié"
+    "WiFi": "Non spécifié",
+    "Marque": "Mon French Club"
   },
   {
     "Nom du club": "Mon French Club Mercure Hurghada",
@@ -9906,6 +10272,7 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Pour les enfants entre 4 et 12 ans",
     "Accès PMR": "Non spécifié",
-    "WiFi": "Non spécifié"
+    "WiFi": "Non spécifié",
+    "Marque": "Mon French Club"
   }
 ]
