@@ -13802,5 +13802,33 @@
     "Animation en journée": "Oui",
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Non spécifié"
+  },
+  {
+    "Nom du club": "test",
+    "Tour Operator": "Club Med Exclusive Collection",
+    "Marque": "Club Med Exclusive Collection",
+    "Nombre d'étoiles": "2",
+    "Pays": "Espagne",
+    "Ville": "test",
+    "lat": 39.23225,
+    "lng": 46.04344,
+    "Nombre de chambres": "0",
+    "Types de chambres": "Standard, Supérieure",
+    "Adult Only": "Non",
+    "Accès PMR": "Non spécifié",
+    "WiFi": "",
+    "All Inclusive": "Oui",
+    "Demi-pension": "Non spécifié",
+    "Buffet disponible": "Oui",
+    "Accès direct à la mer": "",
+    "Service de transferts": "Disponible",
+    "Activités proposées": "",
+    "Salle de sport": "",
+    "Piscines": "",
+    "Équipements sportifs": "",
+    "Animation francophone": "",
+    "Animation en journée": "Oui",
+    "Animation en soirée": "Oui",
+    "Clubs enfants/ados": ""
   }
 ]
