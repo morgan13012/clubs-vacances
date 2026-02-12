@@ -1702,7 +1702,6 @@
     "Animation en soirée": "Non spécifié",
     "Clubs enfants/ados": "Club ados (1-8 ans)",
     "Accès PMR": "Non spécifié",
-
     "WiFi": "Gratuit",
     "lat": -6.01,
     "lng": 39.41,
@@ -2084,7 +2083,6 @@
     "Accès direct à la mer": "Oui",
     "Service de transferts": "Disponible",
     "All Inclusive": "Oui",
-
     "Demi-pension": "Non",
     "Buffet disponible": "Oui",
     "Activités proposées": "Sports collectifs, Sports nautiques, Excursions",
@@ -3585,7 +3583,7 @@
     "lng": 26.5886,
     "Marque": "Mondial Tourisme"
   },
-   {
+  {
     "Nom du club": "Djerba Plaza Thalasso & Spa",
     "Tour Operator": "Naya Club",
     "Nombre d'étoiles": 4,
@@ -3746,7 +3744,6 @@
     "Équipements sportifs": "Tennis (éclairé, 2 courts), Football, Beach-volley, Pétanque, Tennis de table",
     "Piscines": "1 piscine extérieure (non chauffée) avec bassin séparé enfants, 1 piscine intérieure couverte et chauffée",
     "Animation francophone": "Oui – animation Naya francophone",
-
     "Animation en journée": "Oui",
     "Animation en soirée": "Oui (spectacles, cabaret, fakir, musique live)",
     "Clubs enfants/ados": "Naya Bambins (4-10 ans toute la saison), Instants Ados (11-17 ans, uniquement juillet/août), 1 aire de jeu pour enfants",
@@ -5073,7 +5070,7 @@
   {
     "Nom du club": "VM Resort",
     "Tour Operator": "Top of Travel",
-    "Nombre d'étoiles": 5,
+    "Nombre d'étoiles": "5",
     "Nombre de chambres": "313",
     "Types de chambres": "Standard, Supérieure, Deluxe, Suite, Familiale, Vue mer, Vue jardin, Vue latérale mer, Studio, Avec balcon",
     "Adult Only": "Non",
@@ -5081,16 +5078,16 @@
     "Ville": "Radhimë",
     "Accès direct à la mer": "Oui – accès direct à la plage de Golem (mer Adriatique)",
     "Service de transferts": "Disponible",
-    "All Inclusive": "Oui (en option, demi-pension également disponible)",
+    "All Inclusive": "",
     "Demi-pension": "Oui",
     "Buffet disponible": "Oui",
     "Activités proposées": "Spa / Bien-être (bains à remous, soins de beauté, massages en supplément), Excursions Top Nature (3) et Top Culture",
     "Salle de sport": "Oui",
-    "Équipements sportifs": "tennis, beach.?volley, mini.?golf, ping.?pong, aquagym, volleyball, water-polo",
+    "Équipements sportifs": "tennis, beach-volley, minigolf, ping-pong, aquagym, volleyball, water-polo",
     "Piscines": "1 piscine aménagée avec transats et parasols",
     "Animation francophone": "Oui – équipe 100% francophone",
     "Animation en journée": "Oui",
-    "Animation en soirée": "Oui (ambiance calme ou soirées animées, Live Music)",
+    "Animation en soirée": "",
     "Clubs enfants/ados": "Mini Club (4-12 ans, 2 demi-journées/semaine pendant vacances scolaires), Club Ado (13-17 ans), veillée hebdomadaire",
     "Accès PMR": "Oui",
     "WiFi": "Gratuit",
@@ -7978,7 +7975,6 @@
     "Animation en journée": "Oui",
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Non spécifié",
-
     "Accès PMR": "Non spécifié",
     "WiFi": "Gratuit",
     "Marque": "Framissima"
@@ -9255,7 +9251,6 @@
     "lat": 39.54,
     "lng": 3.33,
     "Accès direct à la mer": "à 3 km navette gratuite",
-
     "Service de transferts": "Disponible",
     "All Inclusive": "Oui",
     "Demi-pension": "Non",
@@ -10649,7 +10644,6 @@
     "Tour Operator": "Kappa Club",
     "Marque": "Kappa Club",
     "Nombre d'étoiles": 5,
-
     "Nombre de chambres": "144",
     "Types de chambres": "Standard",
     "Adult Only": "Oui",
@@ -11798,7 +11792,6 @@
     "Tour Operator": "Coralia",
     "Marque": "Coralia",
     "Nombre d'étoiles": "4",
-
     "Nombre de chambres": "580",
     "Types de chambres": "Chambre Standard avec balcon/terrasse",
     "Adult Only": "Non",
@@ -13178,7 +13171,6 @@
     "Nombre de chambres": "Non spécifié",
     "Types de chambres": "Chambres Club",
     "Adult Only": "Non",
-
     "Accès PMR": "Non spécifié",
     "WiFi": "Oui",
     "All Inclusive": "Oui",
