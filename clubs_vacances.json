@@ -14373,7 +14373,7 @@
     "Pays": "France",
     "Ville": "Capbreton (Landes)",
     "Acces direct a la mer": "Non spécifié",
-    "Service de transferts": "Non",
+    "Service de transferts": "",
     "All Inclusive": "Non",
     "Demi-pension": "Oui",
     "Buffet disponible": "Oui",
@@ -14387,11 +14387,16 @@
     "Clubs enfants/ados": "Les Poussins (4-35 mois), Renardeaux (3-5 ans), Pirates (6-10 ans), Juniors (11-13 ans), Ados (14-17 ans)",
     "Acces PMR": "Non spécifié",
     "WiFi": "Non spécifié",
-    "lat": 0,
-    "lng": 0,
+    "lat": 43.633331,
+    "lng": -1.43333,
     "Marque": "Belambra",
     "Accès direct à la mer": "Plage à 150 m",
-    "Équipements sportifs": "Tennis, Padel, Beach-volley, Pétanque, Tennis de table, Aquagym"
+    "Équipements sportifs": "Tennis, Padel, Beach-volley, Pétanque, Tennis de table, Aquagym",
+    "Nombre d'étoiles": "4",
+    "Accès PMR": "Non spécifié",
+    "Activités proposées": "",
+    "Animation en journée": "Oui",
+    "Animation en soirée": "Oui"
   },
   {
     "Nom du club": "Omaha Beach",
