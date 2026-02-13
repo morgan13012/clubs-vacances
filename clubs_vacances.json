@@ -12969,14 +12969,14 @@
   {
     "Nom du club": "Themis Beach",
     "Tour Operator": "FRAM",
-    "Nombre d'étoiles": 4,
+    "Nombre d'étoiles": "4",
     "Nombre de chambres": "157",
     "Types de chambres": "Non spécifié",
     "Adult Only": "Non",
     "Pays": "Grèce",
     "Ville": "Kokkini Hani",
     "Accès direct à la mer": "Oui",
-    "Service de transferts": "Inclus",
+    "Service de transferts": "",
     "All Inclusive": "Oui",
     "Demi-pension": "Non",
     "Buffet disponible": "Oui",
@@ -12990,8 +12990,8 @@
     "Clubs enfants/ados": "Non spécifié",
     "Accès PMR": "Non spécifié",
     "WiFi": "Non spécifié",
-    "lat": 0,
-    "lng": 0,
+    "lat": 35.3306521,
+    "lng": 25.2620555,
     "Marque": "Club Jumbo"
   },
   {
