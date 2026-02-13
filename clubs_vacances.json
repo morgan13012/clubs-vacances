@@ -12997,14 +12997,14 @@
   {
     "Nom du club": "Les Jardins d'Agadir",
     "Tour Operator": "TUI",
-    "Nombre d'étoiles": 4,
+    "Nombre d'étoiles": "4",
     "Nombre de chambres": "393",
     "Types de chambres": "Non spécifié",
     "Adult Only": "Non",
     "Pays": "Maroc",
     "Ville": "Agadir",
     "Accès direct à la mer": "Non spécifié",
-    "Service de transferts": "Inclus",
+    "Service de transferts": "",
     "All Inclusive": "Oui",
     "Demi-pension": "Non",
     "Buffet disponible": "Oui",
@@ -13018,8 +13018,8 @@
     "Clubs enfants/ados": "Non spécifié",
     "Accès PMR": "Oui",
     "WiFi": "Non spécifié",
-    "lat": 0,
-    "lng": 0,
+    "lat": 30.40711,
+    "lng": -9.59756,
     "Marque": "Marmara"
   },
   {
