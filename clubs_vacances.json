@@ -14718,7 +14718,7 @@
     "Pays": "France",
     "Ville": "Presqu'île de Giens (Var)",
     "Acces direct a la mer": "Non spécifié",
-    "Service de transferts": "Non",
+    "Service de transferts": "",
     "All Inclusive": "Non",
     "Demi-pension": "Oui",
     "Buffet disponible": "Oui",
@@ -14732,11 +14732,16 @@
     "Clubs enfants/ados": "Les Poussins (4-35 mois), Renardeaux (3-5 ans), Pirates (6-10 ans), Juniors (11-13 ans), Ados (14-17 ans)",
     "Acces PMR": "Non spécifié",
     "WiFi": "Gratuit",
-    "lat": 0,
-    "lng": 0,
+    "lat": 43.045094,
+    "lng": 6.148383,
     "Marque": "Belambra",
     "Accès direct à la mer": "Oui - accès direct plage de sable fin",
-    "Activités proposées": "Spa / Bien-être, Base nautique, Club de voile"
+    "Activités proposées": "Spa / Bien-être, Base nautique, Club de voile",
+    "Nombre d'étoiles": "4",
+    "Accès PMR": "Non spécifié",
+    "Équipements sportifs": "",
+    "Animation en journée": "Oui",
+    "Animation en soirée": "Oui"
   },
   {
     "Nom du club": "Arena Bianca",
