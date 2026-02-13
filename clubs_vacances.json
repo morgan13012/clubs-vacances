@@ -14508,7 +14508,7 @@
     "Pays": "France",
     "Ville": "Le Pradet (Var)",
     "Acces direct a la mer": "Non spécifié",
-    "Service de transferts": "Non",
+    "Service de transferts": "",
     "All Inclusive": "Non",
     "Demi-pension": "Oui",
     "Buffet disponible": "Oui",
@@ -14522,10 +14522,16 @@
     "Clubs enfants/ados": "Renardeaux (3-5 ans), Pirates (6-10 ans), Juniors (11-13 ans), Ados (14-17 ans)",
     "Acces PMR": "Non spécifié",
     "WiFi": "Non spécifié",
-    "lat": 0,
-    "lng": 0,
+    "lat": 43.10384,
+    "lng": 6.03617,
     "Marque": "Belambra",
-    "Accès direct à la mer": "Plage à 3 km"
+    "Accès direct à la mer": "Plage à 3 km",
+    "Nombre d'étoiles": "4",
+    "Accès PMR": "Non spécifié",
+    "Activités proposées": "",
+    "Équipements sportifs": "",
+    "Animation en journée": "Oui",
+    "Animation en soirée": "Oui"
   },
   {
     "Nom du club": "Les Embrunes",
