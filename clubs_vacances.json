@@ -14683,7 +14683,7 @@
     "Pays": "France",
     "Ville": "Presqu'île de Giens (Var)",
     "Acces direct a la mer": "Non spécifié",
-    "Service de transferts": "Non",
+    "Service de transferts": "",
     "All Inclusive": "Non",
     "Demi-pension": "Oui",
     "Buffet disponible": "Oui",
@@ -14697,11 +14697,16 @@
     "Clubs enfants/ados": "Renardeaux (3-5 ans), Pirates (6-10 ans), Juniors (11-13 ans), Ados (14-17 ans)",
     "Acces PMR": "Non spécifié",
     "WiFi": "Non spécifié",
-    "lat": 0,
-    "lng": 0,
+    "lat": 43.030428,
+    "lng": 6.158322,
     "Marque": "Belambra",
     "Accès direct à la mer": "Oui - 17 criques dans un parc de 35 hectares",
-    "Équipements sportifs": "Tennis, Padel, Multisport, Beach-volley, Mini-golf, Aquagym, Base nautique"
+    "Équipements sportifs": "Tennis, Padel, Multisport, Beach-volley, Mini-golf, Aquagym, Base nautique",
+    "Nombre d'étoiles": "4",
+    "Accès PMR": "Non spécifié",
+    "Activités proposées": "",
+    "Animation en journée": "Oui",
+    "Animation en soirée": "Oui"
   },
   {
     "Nom du club": "Riviera Beach Club",
