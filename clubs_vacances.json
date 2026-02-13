@@ -14753,7 +14753,7 @@
     "Pays": "France",
     "Ville": "Propriano (Corse du Sud)",
     "Acces direct a la mer": "Non spécifié",
-    "Service de transferts": "Non",
+    "Service de transferts": "",
     "All Inclusive": "Non",
     "Demi-pension": "Oui",
     "Buffet disponible": "Oui",
@@ -14767,11 +14767,16 @@
     "Clubs enfants/ados": "Non spécifié",
     "Acces PMR": "Non spécifié",
     "WiFi": "Non spécifié",
-    "lat": 0,
-    "lng": 0,
+    "lat": 41.67203829508224,
+    "lng": 8.891791105270386,
     "Marque": "Belambra",
     "Accès direct à la mer": "Oui - accès direct plage",
-    "Équipements sportifs": "Tennis, Beach-volley, Pétanque, Tennis de table, Aquagym"
+    "Équipements sportifs": "Tennis, Beach-volley, Pétanque, Tennis de table, Aquagym",
+    "Nombre d'étoiles": "4",
+    "Accès PMR": "Non spécifié",
+    "Activités proposées": "",
+    "Animation en journée": "Oui",
+    "Animation en soirée": "Oui"
   },
   {
     "Nom du club": "Les Estagnots",
