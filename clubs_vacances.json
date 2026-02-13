@@ -4118,7 +4118,6 @@
     "WiFi": "Gratuit",
     "Marque": "Naya Club"
   },
-  
   {
     "Nom du club": "Alvor Baia",
     "Tour Operator": "Top of Travel",
@@ -12967,8 +12966,6 @@
     "Animation en soirée": "Oui",
     "Clubs enfants/ados": "Non spécifié"
   },
-  
-  
   {
     "Nom du club": "Themis Beach",
     "Tour Operator": "FRAM",
@@ -12998,35 +12995,6 @@
     "Marque": "Club Jumbo"
   },
   {
-    "Nom du club": "Ostria Resort & Spa",
-    "Tour Operator": "Jet Tours",
-    "Nombre d'étoiles": 5,
-    "Nombre de chambres": "347",
-    "Types de chambres": "Non spécifié",
-    "Adult Only": "Non",
-    "Pays": "Grèce",
-    "Ville": "Koutsounari",
-    "Accès direct à la mer": "Oui",
-    "Service de transferts": "Inclus",
-    "All Inclusive": "Oui",
-    "Demi-pension": "Non",
-    "Buffet disponible": "Oui",
-    "Activités proposées": "Spa / Bien-être",
-    "Salle de sport": "Non spécifié",
-    "Équipements sportifs": "Padel, Volley, Pétanque, Tennis de table",
-    "Piscines": "4 piscine(s), toboggans",
-    "Animation francophone": "Oui",
-    "Animation en journée": "Oui",
-    "Animation en soirée": "Oui",
-    "Clubs enfants/ados": "Non spécifié",
-    "Accès PMR": "Non spécifié",
-    "WiFi": "Non spécifié",
-    "lat": 0,
-    "lng": 0,
-    "Marque": "Jet Tours"
-  },
-  
-  {
     "Nom du club": "Les Jardins d'Agadir",
     "Tour Operator": "TUI",
     "Nombre d'étoiles": 4,
@@ -13054,7 +13022,6 @@
     "lng": 0,
     "Marque": "Marmara"
   },
-  
   {
     "Nom du club": "Maritim Resort & Spa",
     "Tour Operator": "Jet Tours",
@@ -13083,7 +13050,6 @@
     "lng": 0,
     "Marque": "Jet Tours"
   },
-  
   {
     "Nom du club": "Royalton Splash Punta Cana",
     "Tour Operator": "Ôclub",
@@ -13136,7 +13102,7 @@
     "Clubs enfants/ados": "Mini-club (hôtel)",
     "Accès PMR": "Oui",
     "WiFi": "Non spécifié",
-    "lat": 20.40,
+    "lat": 20.4,
     "lng": -87.32,
     "Marque": "Ôclub"
   },
@@ -13416,7 +13382,7 @@
     "Clubs enfants/ados": "Mini-club (hôtel)",
     "Accès PMR": "Oui",
     "WiFi": "Non spécifié",
-    "lat": 29.00,
+    "lat": 29,
     "lng": -13.56,
     "Marque": "Ôclub"
   },
@@ -13528,7 +13494,7 @@
     "Clubs enfants/ados": "Mini-club (4-12 ans)",
     "Accès PMR": "Oui",
     "WiFi": "Non spécifié",
-    "lat": 29.00,
+    "lat": 29,
     "lng": -13.56,
     "Marque": "Ôclub"
   },
@@ -13588,7 +13554,6 @@
     "lng": -16.62,
     "Marque": "Ôclub"
   },
-	
   {
     "Nom du club": "Ôclub Select Barceló Tenerife",
     "Tour Operator": "Ôclub",
@@ -14005,7 +13970,7 @@
     "Clubs enfants/ados": "Mini-club (4-12 ans)",
     "Accès PMR": "Non",
     "WiFi": "Non spécifié",
-    "lat": 36.60,
+    "lat": 36.6,
     "lng": -4.52,
     "Marque": "Ôclub"
   },
@@ -14062,7 +14027,7 @@
     "Accès PMR": "Oui",
     "WiFi": "Non spécifié",
     "lat": 37.13,
-    "lng": -7.60,
+    "lng": -7.6,
     "Marque": "Ôclub"
   },
   {
@@ -14230,7 +14195,7 @@
     "Accès PMR": "Non",
     "WiFi": "Non spécifié",
     "lat": 40.14,
-    "lng": 18.50,
+    "lng": 18.5,
     "Marque": "Ôclub"
   },
   {
@@ -14509,7 +14474,7 @@
     "Clubs enfants/ados": "Mini-club (4-12 ans)",
     "Accès PMR": "Oui",
     "WiFi": "Non spécifié",
-    "lat": 36.30,
+    "lat": 36.3,
     "lng": 28.19,
     "Marque": "Ôclub"
   },
@@ -14622,7 +14587,7 @@
     "Accès PMR": "Oui",
     "WiFi": "Non spécifié",
     "lat": 36.34,
-    "lng": 28.20,
+    "lng": 28.2,
     "Marque": "Ôclub"
   },
   {
@@ -14734,7 +14699,7 @@
     "Accès PMR": "Oui",
     "WiFi": "Non spécifié",
     "lat": 30.42,
-    "lng": -9.60,
+    "lng": -9.6,
     "Marque": "Ôclub"
   },
   {
@@ -15212,7 +15177,6 @@
     "lat": 6.37,
     "lng": 80.11,
     "Marque": "Ôclub"
-	  
   },
   {
     "Nom du club": "Ôclub Expérience Canareef Resort",
@@ -15267,7 +15231,7 @@
     "Accès PMR": "Non",
     "WiFi": "Non spécifié",
     "lat": 8.01,
-    "lng": 98.40,
+    "lng": 98.4,
     "Marque": "Ôclub"
   },
   {
@@ -15322,7 +15286,7 @@
     "Clubs enfants/ados": "Mini-club (hôtel)",
     "Accès PMR": "Oui",
     "WiFi": "Non spécifié",
-    "lat": -8.80,
+    "lat": -8.8,
     "lng": 115.23,
     "Marque": "Ôclub"
   },
@@ -15350,7 +15314,7 @@
     "Clubs enfants/ados": "Mini-club (hôtel)",
     "Accès PMR": "Oui",
     "WiFi": "Non spécifié",
-    "lat": 19.30,
+    "lat": 19.3,
     "lng": -69.25,
     "Marque": "Ôclub"
   },
@@ -15409,9 +15373,8 @@
     "lat": 18.56,
     "lng": -68.37,
     "Marque": "Ôclub"
-  },	
-	
-	  {
+  },
+  {
     "Nom du club": "Ôclub Select Occidental Punta Cana",
     "Tour Operator": "Ôclub",
     "Nombre d'étoiles": 5,
@@ -15435,12 +15398,11 @@
     "Clubs enfants/ados": "Mini-club (hôtel)",
     "Accès PMR": "Oui",
     "WiFi": "Non spécifié",
-	"lat": 18.56,
+    "lat": 18.56,
     "lng": -68.37,
     "Marque": "Ôclub"
-	 },
-	
-	{
+  },
+  {
     "Nom du club": "Les Portes de l'Océan",
     "Tour Operator": "Belambra",
     "Nombre d'étoiles": "3",
@@ -15540,8 +15502,6 @@
     "Ville": "Hossegor / Seignosse (Landes)",
     "Accès direct à la mer": "Plage à 200 m",
     "Service de transferts": "",
-
-
     "All Inclusive": "Non",
     "Demi-pension": "Oui",
     "Buffet disponible": "Oui",
@@ -15887,8 +15847,7 @@
     "lng": 6.130248,
     "Marque": "Belambra"
   },
-
- {
+  {
     "Nom du club": "Les Vignes",
     "Tour Operator": "Belambra",
     "Nombre d'etoiles": 3,
@@ -15958,7 +15917,6 @@
     "Animation en journée": "Oui",
     "Animation en soirée": "Oui"
   },
-	
   {
     "Nom du club": "Panorama",
     "Tour Operator": "Belambra",
@@ -16638,6 +16596,4 @@
     "lng": 1.68033,
     "Marque": "Belambra"
   }
-	
-	
 ]
