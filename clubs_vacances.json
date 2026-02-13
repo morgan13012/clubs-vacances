@@ -14998,7 +14998,7 @@
     "Pays": "France",
     "Ville": "Gourette (Pyrénées-Atlantiques)",
     "Acces direct a la mer": "Non spécifié",
-    "Service de transferts": "Non",
+    "Service de transferts": "",
     "All Inclusive": "Non",
     "Demi-pension": "Oui",
     "Buffet disponible": "Oui",
@@ -15012,10 +15012,16 @@
     "Clubs enfants/ados": "Non spécifié",
     "Acces PMR": "Non spécifié",
     "WiFi": "Non spécifié",
-    "lat": 0,
-    "lng": 0,
+    "lat": 42.95880951437098,
+    "lng": -0.3303408622741699,
     "Marque": "Belambra",
-    "Accès direct à la mer": "Non (montagne)"
+    "Accès direct à la mer": "Non (montagne)",
+    "Nombre d'étoiles": "4",
+    "Accès PMR": "Non spécifié",
+    "Activités proposées": "",
+    "Équipements sportifs": "",
+    "Animation en journée": "Oui",
+    "Animation en soirée": "Oui"
   },
   {
     "Nom du club": "L'Orée des Pistes",
