@@ -658,7 +658,7 @@ init();
 // =====================================================================
 let mapReady=false;
 let modalOpenTime=null;
-function openModal(){document.getElementById('modal').classList.add('active');document.body.style.overflow='hidden';if(!mapReady){setTimeout(initMainMap,120);mapReady=true}else setTimeout(()=>mainMap.invalidateSize(),100);modalOpenTime=Date.now();trackEvent('view')}
+function openModal(){document.getElementById('modal').classList.add('active');document.body.style.overflow='hidden';if(!mapReady){setTimeout(initMainMap,300);mapReady=true}else setTimeout(()=>mainMap.invalidateSize(),200);setTimeout(()=>{if(mainMap)mainMap.invalidateSize()},500);setTimeout(()=>{if(mainMap)mainMap.invalidateSize()},1000);modalOpenTime=Date.now();trackEvent('view')}
 function closeModal(){trackSessionDuration();document.getElementById('modal').classList.remove('active');document.body.style.overflow='';closeDetail()}
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(document.getElementById('statsOverlay').classList.contains('active'))closeStats();else if(document.getElementById('confirmOverlay').classList.contains('active'))hideConfirm();else if(document.getElementById('formOverlay').classList.contains('active'))closeForm();else if(document.getElementById('loginOverlay').classList.contains('active'))hideLogin();else if(document.getElementById('detailPanel').classList.contains('open'))closeDetail();else closeModal()}});
 window.addEventListener('beforeunload', ()=>{ trackSessionDuration(); });
