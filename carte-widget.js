@@ -1,6 +1,7 @@
 (function () {
   var BASE_URL = 'https://morgan13012.github.io/clubs-vacances/';
   var CARTE_URL = BASE_URL + 'carte-clubs-vacances30_avec_copyright_TM.html';
+  var PUBLIC_TOKEN = 'TmG2026CarteClubs!';
   var container = document.getElementById('carte-clubs-vacances');
 
   if (!container) {
@@ -17,6 +18,14 @@
 
   // Loader temporaire
   container.innerHTML = '<p style="text-align:center;padding-top:20%;color:#888;">Chargement de la carte…</p>';
+
+  // Injecter le paramètre ?public= dans l'URL actuelle (sans recharger)
+  // pour que le JS de la carte le lise via window.location.search
+  var currentUrl = new URL(window.location.href);
+  if (!currentUrl.searchParams.has('public')) {
+    currentUrl.searchParams.set('public', PUBLIC_TOKEN);
+    window.history.replaceState({}, '', currentUrl.toString());
+  }
 
   fetch(CARTE_URL)
     .then(function (response) {
