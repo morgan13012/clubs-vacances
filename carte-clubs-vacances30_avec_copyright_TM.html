@@ -677,7 +677,7 @@ let modalOpenTime=null;
     mapPanel.classList.add('visible-mobile');
     btns[0].classList.remove('active');
     btns[1].classList.add('active');
-    if(mainMap)setTimeout(()=>mainMap.invalidateSize(),200);
+    fixMapTiles();
   }else{
     sidebar.classList.remove('hidden-mobile');
     mapPanel.classList.remove('visible-mobile');
@@ -686,7 +686,8 @@ let modalOpenTime=null;
   }
 }
 	
-function openModal(){document.getElementById('modal').classList.add('active');document.body.style.overflow='hidden';if(!mapReady){setTimeout(initMainMap,300);mapReady=true}else setTimeout(()=>mainMap.invalidateSize(),200);setTimeout(()=>{if(mainMap)mainMap.invalidateSize()},500);setTimeout(()=>{if(mainMap)mainMap.invalidateSize()},1000);modalOpenTime=Date.now();trackEvent('view')}
+function openModal(){document.getElementById('modal').classList.add('active');document.body.style.overflow='hidden';if(!mapReady){setTimeout(initMainMap,300);mapReady=true}else{mainMap.invalidateSize()}fixMapTiles();modalOpenTime=Date.now();trackEvent('view')}
+function fixMapTiles(){if(!mainMap)return;var i=0;var t=setInterval(function(){mainMap.invalidateSize();i++;if(i>=10)clearInterval(t)},300)}
 function closeModal(){trackSessionDuration();document.getElementById('modal').classList.remove('active');document.body.style.overflow='';closeDetail()}
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(document.getElementById('statsOverlay').classList.contains('active'))closeStats();else if(document.getElementById('confirmOverlay').classList.contains('active'))hideConfirm();else if(document.getElementById('formOverlay').classList.contains('active'))closeForm();else if(document.getElementById('loginOverlay').classList.contains('active'))hideLogin();else if(document.getElementById('detailPanel').classList.contains('open'))closeDetail();else closeModal()}});
 window.addEventListener('beforeunload', ()=>{ trackSessionDuration(); });
