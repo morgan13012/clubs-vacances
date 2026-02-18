@@ -220,11 +220,16 @@
 .marker-cluster-small div,.marker-cluster-medium div,.marker-cluster-large div{background:var(--primary)!important;color:#fff!important;font-family:'DM Sans',sans-serif!important;font-weight:700!important}
 ::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
 @media(max-width:768px){
-  .modal-backdrop{position:fixed;inset:0;z-index:10000;width:100vw;height:100vh}
   .modal-content{inset:0;border-radius:0}
-  .main-layout{flex-direction:column}
-  .sidebar{width:100%;max-height:35vh;border-right:none;border-bottom:1px solid var(--border)}
-  .map-panel{min-height:55vh;position:relative}
+  .main-layout{flex-direction:column;height:100%}
+  .sidebar{width:100%;height:100%;border-right:none;border-bottom:none;display:flex;flex-direction:column}
+  .map-panel{width:100%;height:100%;position:relative;display:none}
+  .sidebar.hidden-mobile{display:none!important}
+  .map-panel.visible-mobile{display:block!important}
+  .mobile-tabs{display:flex!important;flex-shrink:0}
+  .mobile-tabs button{flex:1;padding:10px;border:none;font-family:inherit;font-size:.85rem;font-weight:700;cursor:pointer;transition:background .2s}
+  .mobile-tabs button.active{background:var(--primary);color:#fff}
+  .mobile-tabs button:not(.active){background:var(--border);color:var(--text)}
   .detail-panel{width:100%;position:fixed;inset:0;z-index:10001;transform:translateY(100%);border-radius:0}
   .detail-panel.open{transform:translateY(0)}
   .embed-container{height:300px}
@@ -249,7 +254,7 @@
 <div class="modal-content">
   <div class="topbar">
     <div class="topbar-left">
-      <img src="https://www.tourmag.com/my/tourmag/dossiers_speciaux/2026_03_clubs/carte/Logo-TourMagGlobe-BlancCMJN_DEFINITIF.png" style="height:28px;width:auto;">
+      <img src="https://www.tourmag.com/my/tourmag/dossiers_speciaux/2026_03_clubs/carte/Logo-TourMagGlobe-BlancCMJN_DEFINITIF.png" style="height:28px!important;width:auto!important;max-width:120px!important;">
       Clubs de Vacances <span class="topbar-count" id="topbarCount"></span>
     </div>
     <div class="topbar-right">
@@ -261,6 +266,11 @@
     </div>
   </div>
   <div class="main-layout">
+	  
+	  <div class="mobile-tabs" style="display:none">
+  <button class="active" onclick="showMobileTab('list')">📋 Liste</button>
+  <button onclick="showMobileTab('map')">🗺️ Carte</button>
+</div>
     <div class="sidebar">
       <div class="search-box"><div class="search-wrap"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg><input type="text" id="searchInput" placeholder="Rechercher un club, ville, pays…" oninput="applyFilters()"></div></div>
       <div class="filters-section">
@@ -658,6 +668,24 @@ init();
 // =====================================================================
 let mapReady=false;
 let modalOpenTime=null;
+	function showMobileTab(tab){
+  const sidebar=document.querySelector('.sidebar');
+  const mapPanel=document.querySelector('.map-panel');
+  const btns=document.querySelectorAll('.mobile-tabs button');
+  if(tab==='map'){
+    sidebar.classList.add('hidden-mobile');
+    mapPanel.classList.add('visible-mobile');
+    btns[0].classList.remove('active');
+    btns[1].classList.add('active');
+    if(mainMap)setTimeout(()=>mainMap.invalidateSize(),200);
+  }else{
+    sidebar.classList.remove('hidden-mobile');
+    mapPanel.classList.remove('visible-mobile');
+    btns[0].classList.add('active');
+    btns[1].classList.remove('active');
+  }
+}
+	
 function openModal(){document.getElementById('modal').classList.add('active');document.body.style.overflow='hidden';if(!mapReady){setTimeout(initMainMap,300);mapReady=true}else setTimeout(()=>mainMap.invalidateSize(),200);setTimeout(()=>{if(mainMap)mainMap.invalidateSize()},500);setTimeout(()=>{if(mainMap)mainMap.invalidateSize()},1000);modalOpenTime=Date.now();trackEvent('view')}
 function closeModal(){trackSessionDuration();document.getElementById('modal').classList.remove('active');document.body.style.overflow='';closeDetail()}
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(document.getElementById('statsOverlay').classList.contains('active'))closeStats();else if(document.getElementById('confirmOverlay').classList.contains('active'))hideConfirm();else if(document.getElementById('formOverlay').classList.contains('active'))closeForm();else if(document.getElementById('loginOverlay').classList.contains('active'))hideLogin();else if(document.getElementById('detailPanel').classList.contains('open'))closeDetail();else closeModal()}});
