@@ -376,6 +376,7 @@
       <div class="form-group"><label>Accès PMR</label><select id="fPMR"><option value="Non spécifié">Non spécifié</option><option value="Oui">Oui</option><option value="Non">Non</option></select></div>
     </div>
     <div class="form-row full"><div class="form-group"><label>WiFi</label><input type="text" id="fWifi" placeholder="Gratuit, Payant, Non spécifié…"></div></div>
+    <div class="form-row full"><div class="form-group"><label>Détails hébergement</label><textarea id="fDetailsHeberg" placeholder="Infos complémentaires sur l'hébergement…"></textarea></div></div>
     <div class="form-section-label">Restauration</div>
     <div class="form-row">
       <div class="form-group"><label>All Inclusive</label><select id="fAI"><option value="Oui">Oui</option><option value="Non">Non</option><option value="Non spécifié">Non spécifié</option></select></div>
@@ -386,6 +387,7 @@
       <div class="form-group"><label>Buffet disponible</label><select id="fBuffet"><option value="Oui">Oui</option><option value="Non">Non</option><option value="Non spécifié">Non spécifié</option></select></div>
     </div>
     <div class="form-row full"><div class="form-group"><label>Buffet disponible</label><select id="fBuffet"><option value="Oui">Oui</option><option value="Non">Non</option><option value="Non spécifié">Non spécifié</option></select></div></div>
+    <div class="form-row full"><div class="form-group"><label>Détails restauration</label><textarea id="fDetailsResto" placeholder="3 restaurants, buffet le midi, à la carte le soir…"></textarea></div></div>
     <div class="form-section-label">Accès & Localisation</div>
     <div class="form-row full"><div class="form-group"><label>Accès direct à la mer</label><input type="text" id="fMer" placeholder="Oui (en bord de plage), Non (à 300m)…"></div></div>
     <div class="form-row full"><div class="form-group"><label>Service de transferts</label><select id="fTransferts"><option value="Disponible">Disponible</option><option value="Non spécifié">Non spécifié</option></select></div></div>
@@ -782,8 +784,8 @@ function showDetail(idx){
   function fv(v){const s=String(v||'');if(!s||s==='Non spécifié'||s==='Not in source')return'<span style="color:#94A3B8">Non renseigné</span>';if(s==='Oui')return'<span class="yes">✓ Oui</span>';if(s==='Non')return'<span class="no">✗ Non</span>';return s}
   
   b.innerHTML=`
-    <div class="detail-section"><div class="detail-section-title">🏠 Hébergement</div><div class="detail-grid"><div class="detail-field"><div class="detail-field-label">Chambres</div><div class="detail-field-value">${fv(c["Nombre de chambres"])}</div></div><div class="detail-field"><div class="detail-field-label">Types</div><div class="detail-field-value">${fv(c["Types de chambres"])}</div></div><div class="detail-field"><div class="detail-field-label">Adult Only</div><div class="detail-field-value">${fv(c["Adult Only"])}</div></div><div class="detail-field"><div class="detail-field-label">Accès PMR</div><div class="detail-field-value">${fv(c["Accès PMR"])}</div></div><div class="detail-field full"><div class="detail-field-label">WiFi</div><div class="detail-field-value">${fv(c["WiFi"])}</div></div></div></div>
-    <div class="detail-section"><div class="detail-section-title">🍽 Restauration</div><div class="detail-grid"><div class="detail-field"><div class="detail-field-label">All Inclusive</div><div class="detail-field-value">${fv(c["All Inclusive"])}</div></div><div class="detail-field"><div class="detail-field-label">Demi-pension</div><div class="detail-field-value">${fv(c["Demi-pension"])}</div></div><div class="detail-field"><div class="detail-field-label">Pension complète</div><div class="detail-field-value">${fv(c["Pension complète"])}</div></div><div class="detail-field"><div class="detail-field-label">Buffet</div><div class="detail-field-value">${fv(c["Buffet disponible"])}</div></div></div></div>
+    <div class="detail-section"><div class="detail-section-title">🏠 Hébergement</div><div class="detail-grid"><div class="detail-field"><div class="detail-field-label">Chambres</div><div class="detail-field-value">${fv(c["Nombre de chambres"])}</div></div><div class="detail-field"><div class="detail-field-label">Types</div><div class="detail-field-value">${fv(c["Types de chambres"])}</div></div><div class="detail-field"><div class="detail-field-label">Adult Only</div><div class="detail-field-value">${fv(c["Adult Only"])}</div></div><div class="detail-field"><div class="detail-field-label">Accès PMR</div><div class="detail-field-value">${fv(c["Accès PMR"])}</div></div><div class="detail-field full"><div class="detail-field-label">WiFi</div><div class="detail-field-value">${fv(c["WiFi"])}</div></div><div class="detail-field full"><div class="detail-field-label">Détails hébergement</div><div class="detail-field-value">${fv(c["Détails hébergement"])}</div></div></div></div>
+    <div class="detail-section"><div class="detail-section-title">🍽 Restauration</div><div class="detail-grid"><div class="detail-field"><div class="detail-field-label">All Inclusive</div><div class="detail-field-value">${fv(c["All Inclusive"])}</div></div><div class="detail-field"><div class="detail-field-label">Demi-pension</div><div class="detail-field-value">${fv(c["Demi-pension"])}</div></div><div class="detail-field"><div class="detail-field-label">Pension complète</div><div class="detail-field-value">${fv(c["Pension complète"])}</div></div><div class="detail-field"><div class="detail-field-label">Buffet</div><div class="detail-field-value">${fv(c["Buffet disponible"])}</div></div><div class="detail-field full"><div class="detail-field-label">Détails restauration</div><div class="detail-field-value">${fv(c["Détails restauration"])}</div></div></div></div>
     <div class="detail-section"><div class="detail-section-title">📍 Accès & Localisation</div><div class="detail-grid"><div class="detail-field full"><div class="detail-field-label">Accès à la mer</div><div class="detail-field-value">${fv(c["Accès direct à la mer"])}</div></div><div class="detail-field full"><div class="detail-field-label">Transferts</div><div class="detail-field-value">${fv(c["Service de transferts"])}</div></div></div></div>
     <div class="detail-section"><div class="detail-section-title">⚡ Activités & Équipements</div><div class="detail-grid"><div class="detail-field full"><div class="detail-field-label">Activités</div><div class="detail-field-value">${fv(c["Activités proposées"])}</div></div><div class="detail-field"><div class="detail-field-label">Salle de sport</div><div class="detail-field-value">${fv(c["Salle de sport"])}</div></div><div class="detail-field"><div class="detail-field-label">Piscines</div><div class="detail-field-value">${fv(c["Piscines"])}</div></div><div class="detail-field full"><div class="detail-field-label">Équipements sportifs</div><div class="detail-field-value">${fv(c["Équipements sportifs"])}</div></div></div></div>
     <div class="detail-section"><div class="detail-section-title">🎶 Animation</div><div class="detail-grid"><div class="detail-field full"><div class="detail-field-label">Animation francophone</div><div class="detail-field-value">${fv(c["Animation francophone"])}</div></div><div class="detail-field"><div class="detail-field-label">Journée</div><div class="detail-field-value">${fv(c["Animation en journée"])}</div></div><div class="detail-field"><div class="detail-field-label">Soirée</div><div class="detail-field-value">${fv(c["Animation en soirée"])}</div></div><div class="detail-field full"><div class="detail-field-label">Clubs enfants / ados</div><div class="detail-field-value">${fv(c["Clubs enfants/ados"])}</div></div></div></div>`;
@@ -985,7 +987,7 @@ function openForm(idx){
 }
 function closeForm(){document.getElementById('formOverlay').classList.remove('active');document.getElementById('formSaving').style.display='none';document.getElementById('formBtnSave').disabled=false;if(formMap){formMap.remove();formMap=null}formMarker=null}
 function clearForm(){
-  ['fNom','fPays','fVille','fLat','fLng','fChambres','fTypesChambres','fWifi','fMer','fActivites','fSport','fPiscines','fEquipSport','fAnimFr','fEnfants'].forEach(id=>document.getElementById(id).value='');
+  ['fNom','fPays','fVille','fLat','fLng','fChambres','fTypesChambres','fWifi','fDetailsHeberg','fMer','fActivites','fSport','fPiscines','fEquipSport','fAnimFr','fEnfants','fDetailsResto'].forEach(id=>document.getElementById(id).value='');
   document.getElementById('fEtoiles').value='4';document.getElementById('fAdult').value='Non';document.getElementById('fPMR').value='Non spécifié';
   document.getElementById('fAI').value='Oui';document.getElementById('fDP').value='Non spécifié';document.getElementById('fPC').value='Non spécifié';document.getElementById('fBuffet').value='Oui';
   document.getElementById('fTransferts').value='Disponible';document.getElementById('fAnimJour').value='Oui';document.getElementById('fAnimSoir').value='Oui';
@@ -997,8 +999,8 @@ function fillForm(c){
   document.getElementById('fLat').value=c.lat||'';document.getElementById('fLng').value=c.lng||'';
   document.getElementById('fChambres').value=c["Nombre de chambres"]||'';document.getElementById('fTypesChambres').value=c["Types de chambres"]||'';
   document.getElementById('fAdult').value=c["Adult Only"]||'Non';document.getElementById('fPMR').value=c["Accès PMR"]||'Non spécifié';
-  document.getElementById('fWifi').value=c["WiFi"]||'';document.getElementById('fAI').value=c["All Inclusive"]||'Oui';
-  document.getElementById('fDP').value=c["Demi-pension"]||'Non spécifié';document.getElementById('fPC').value=c["Pension complète"]||'Non spécifié';document.getElementById('fBuffet').value=c["Buffet disponible"]||'Oui';
+  document.getElementById('fWifi').value=c["WiFi"]||'';document.getElementById('fDetailsHeberg').value=c["Détails hébergement"]||'';document.getElementById('fAI').value=c["All Inclusive"]||'Oui';
+  document.getElementById('fDP').value=c["Demi-pension"]||'Non spécifié';document.getElementById('fBuffet').value=c["Buffet disponible"]||'Oui';document.getElementById('fDetailsResto').value=c["Détails restauration"]||'';
   document.getElementById('fMer').value=c["Accès direct à la mer"]||'';document.getElementById('fTransferts').value=c["Service de transferts"]||'Disponible';
   document.getElementById('fActivites').value=c["Activités proposées"]||'';document.getElementById('fSport').value=c["Salle de sport"]||'';
   document.getElementById('fPiscines').value=c["Piscines"]||'';document.getElementById('fEquipSport').value=c["Équipements sportifs"]||'';
@@ -1045,10 +1047,12 @@ async function saveForm(){
     "Adult Only":document.getElementById('fAdult').value,
     "Accès PMR":document.getElementById('fPMR').value,
     "WiFi":document.getElementById('fWifi').value.trim(),
+    "Détails hébergement":document.getElementById('fDetailsHeberg').value.trim(),
     "All Inclusive":document.getElementById('fAI').value,
     "Demi-pension":document.getElementById('fDP').value,
     "Pension complète":document.getElementById('fPC').value,
     "Buffet disponible":document.getElementById('fBuffet').value,
+    "Détails restauration":document.getElementById('fDetailsResto').value.trim(),
     "Accès direct à la mer":document.getElementById('fMer').value.trim(),
     "Service de transferts":document.getElementById('fTransferts').value,
     "Activités proposées":document.getElementById('fActivites').value.trim(),
