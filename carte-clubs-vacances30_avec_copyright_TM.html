@@ -40,7 +40,7 @@
 @keyframes fadeIn{from{opacity:0}to{opacity:1}}
 @keyframes slideUp{from{transform:translateY(40px);opacity:0}to{transform:translateY(0);opacity:1}}
 .modal-content{position:absolute;inset:12px;background:var(--bg);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;animation:slideUp .35s;box-shadow:var(--shadow-lg)}
-.topbar{display:flex;align-items:center;justify-content:space-between;padding:10px 20px;background:var(--primary);color:#fff;flex-shrink:0;gap:10px;flex-wrap:nowrap}
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:10px 20px;background-color:teal;color:#fff;flex-shrink:0;gap:10px;flex-wrap:nowrap}
 .topbar-left{display:flex;align-items:center;gap:10px;font-weight:700;font-size:1.05rem}
 .topbar-count{background:rgba(255,255,255,.2);padding:3px 12px;border-radius:20px;font-size:.78rem;font-weight:600}
 .topbar-right{display:flex;align-items:center;gap:8px}
@@ -261,7 +261,7 @@
 <div class="modal-content">
   <div class="topbar">
     <div class="topbar-left">
-      <img src="https://www.tourmag.com/my/tourmag/dossiers_speciaux/2026_03_clubs/carte/Logo-TourMagGlobe-BlancCMJN_DEFINITIF.png" style="height:28px!important;width:auto!important;max-width:120px!important;">
+      <img src="https://www.tourmag.com/my/tourmag/dossiers_speciaux/2026_03_clubs/carte/logo_cartouche_blanc.png" style="height:28px!important;width:auto!important;max-width:120px!important;">
       Clubs de Vacances <span class="topbar-count" id="topbarCount"></span>
     </div>
     <div class="topbar-right">
@@ -284,7 +284,7 @@
           <div class="filter-row"><span class="filter-label">Pays</span><select class="filter-select" id="filterPays" onchange="applyFilters()"><option value="">Tous</option></select></div>
           <div class="filter-row"><span class="filter-label">Étoiles</span><div class="filter-chips" id="filterStars"><div class="filter-chip active" data-val="" onclick="toggleStar(this)">Toutes</div><div class="filter-chip" data-val="3" onclick="toggleStar(this)">★★★</div><div class="filter-chip" data-val="4" onclick="toggleStar(this)">★★★★</div><div class="filter-chip" data-val="5" onclick="toggleStar(this)">★★★★★</div></div></div>
           <div class="filter-group-label">Formule & Restauration</div>
-          <div class="filter-row"><div class="filter-chips"><div class="filter-chip" data-filter="allInclusive" onclick="toggleChip(this)">All Inclusive</div><div class="filter-chip" data-filter="demiPension" onclick="toggleChip(this)">Demi-pension</div><div class="filter-chip" data-filter="buffet" onclick="toggleChip(this)">Buffet</div></div></div>
+          <div class="filter-row"><div class="filter-chips"><div class="filter-chip" data-filter="allInclusive" onclick="toggleChip(this)">All Inclusive</div><div class="filter-chip" data-filter="demiPension" onclick="toggleChip(this)">Demi-pension</div><div class="filter-chip" data-filter="buffet" onclick="toggleChip(this)">Buffet</div><div class="filter-chip" data-filter="pensionComplete" onclick="toggleChip(this)">Pension complète</div></div></div>
           <div class="filter-group-label">Public & Accessibilité</div>
           <div class="filter-row"><div class="filter-chips"><div class="filter-chip" data-filter="adultOnly" onclick="toggleChip(this)">Adult Only</div><div class="filter-chip" data-filter="enfants" onclick="toggleChip(this)">Clubs enfants</div><div class="filter-chip" data-filter="pmr" onclick="toggleChip(this)">Accès PMR</div></div></div>
           <div class="filter-group-label">Localisation & Accès</div>
@@ -380,6 +380,10 @@
     <div class="form-row">
       <div class="form-group"><label>All Inclusive</label><select id="fAI"><option value="Oui">Oui</option><option value="Non">Non</option><option value="Non spécifié">Non spécifié</option></select></div>
       <div class="form-group"><label>Demi-pension</label><select id="fDP"><option value="Non spécifié">Non spécifié</option><option value="Oui">Oui</option><option value="Non">Non</option></select></div>
+    </div>
+    <div class="form-row">
+      <div class="form-group"><label>Pension complète</label><select id="fPC"><option value="Non spécifié">Non spécifié</option><option value="Oui">Oui</option><option value="Non">Non</option></select></div>
+      <div class="form-group"><label>Buffet disponible</label><select id="fBuffet"><option value="Oui">Oui</option><option value="Non">Non</option><option value="Non spécifié">Non spécifié</option></select></div>
     </div>
     <div class="form-row full"><div class="form-group"><label>Buffet disponible</label><select id="fBuffet"><option value="Oui">Oui</option><option value="Non">Non</option><option value="Non spécifié">Non spécifié</option></select></div></div>
     <div class="form-section-label">Accès & Localisation</div>
@@ -767,6 +771,7 @@ function showDetail(idx){
   const af=String(c["Animation francophone"]||'').toLowerCase();
   if(af.includes('oui')||af.includes('francophone')||af.includes('100%'))badges.push('Francophone');
   if(String(c["Demi-pension"]||'').startsWith('Oui'))badges.push('Demi-pension');
+	if(String(c["Pension complète"]||'').startsWith('Oui'))badges.push('Pension complète');
   
   const canEdit=!isPublicMode && currentTO && canManageClub(c);
   const actionsHtml=canEdit?`<div class="detail-actions"><button class="btn-edit-club" onclick="openForm(${idx})"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>Modifier</button><button class="btn-delete-club" onclick="showConfirmDelete(${idx})"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2"/></svg>Supprimer</button></div>`:'';
@@ -778,7 +783,7 @@ function showDetail(idx){
   
   b.innerHTML=`
     <div class="detail-section"><div class="detail-section-title">🏠 Hébergement</div><div class="detail-grid"><div class="detail-field"><div class="detail-field-label">Chambres</div><div class="detail-field-value">${fv(c["Nombre de chambres"])}</div></div><div class="detail-field"><div class="detail-field-label">Types</div><div class="detail-field-value">${fv(c["Types de chambres"])}</div></div><div class="detail-field"><div class="detail-field-label">Adult Only</div><div class="detail-field-value">${fv(c["Adult Only"])}</div></div><div class="detail-field"><div class="detail-field-label">Accès PMR</div><div class="detail-field-value">${fv(c["Accès PMR"])}</div></div><div class="detail-field full"><div class="detail-field-label">WiFi</div><div class="detail-field-value">${fv(c["WiFi"])}</div></div></div></div>
-    <div class="detail-section"><div class="detail-section-title">🍽 Restauration</div><div class="detail-grid"><div class="detail-field"><div class="detail-field-label">All Inclusive</div><div class="detail-field-value">${fv(c["All Inclusive"])}</div></div><div class="detail-field"><div class="detail-field-label">Demi-pension</div><div class="detail-field-value">${fv(c["Demi-pension"])}</div></div><div class="detail-field full"><div class="detail-field-label">Buffet</div><div class="detail-field-value">${fv(c["Buffet disponible"])}</div></div></div></div>
+    <div class="detail-section"><div class="detail-section-title">🍽 Restauration</div><div class="detail-grid"><div class="detail-field"><div class="detail-field-label">All Inclusive</div><div class="detail-field-value">${fv(c["All Inclusive"])}</div></div><div class="detail-field"><div class="detail-field-label">Demi-pension</div><div class="detail-field-value">${fv(c["Demi-pension"])}</div></div><div class="detail-field"><div class="detail-field-label">Pension complète</div><div class="detail-field-value">${fv(c["Pension complète"])}</div></div><div class="detail-field"><div class="detail-field-label">Buffet</div><div class="detail-field-value">${fv(c["Buffet disponible"])}</div></div></div></div>
     <div class="detail-section"><div class="detail-section-title">📍 Accès & Localisation</div><div class="detail-grid"><div class="detail-field full"><div class="detail-field-label">Accès à la mer</div><div class="detail-field-value">${fv(c["Accès direct à la mer"])}</div></div><div class="detail-field full"><div class="detail-field-label">Transferts</div><div class="detail-field-value">${fv(c["Service de transferts"])}</div></div></div></div>
     <div class="detail-section"><div class="detail-section-title">⚡ Activités & Équipements</div><div class="detail-grid"><div class="detail-field full"><div class="detail-field-label">Activités</div><div class="detail-field-value">${fv(c["Activités proposées"])}</div></div><div class="detail-field"><div class="detail-field-label">Salle de sport</div><div class="detail-field-value">${fv(c["Salle de sport"])}</div></div><div class="detail-field"><div class="detail-field-label">Piscines</div><div class="detail-field-value">${fv(c["Piscines"])}</div></div><div class="detail-field full"><div class="detail-field-label">Équipements sportifs</div><div class="detail-field-value">${fv(c["Équipements sportifs"])}</div></div></div></div>
     <div class="detail-section"><div class="detail-section-title">🎶 Animation</div><div class="detail-grid"><div class="detail-field full"><div class="detail-field-label">Animation francophone</div><div class="detail-field-value">${fv(c["Animation francophone"])}</div></div><div class="detail-field"><div class="detail-field-label">Journée</div><div class="detail-field-value">${fv(c["Animation en journée"])}</div></div><div class="detail-field"><div class="detail-field-label">Soirée</div><div class="detail-field-value">${fv(c["Animation en soirée"])}</div></div><div class="detail-field full"><div class="detail-field-label">Clubs enfants / ados</div><div class="detail-field-value">${fv(c["Clubs enfants/ados"])}</div></div></div></div>`;
@@ -841,6 +846,7 @@ function applyFilters(){
     if(chips.has('allInclusive')&&c["All Inclusive"]!=='Oui')return false;
     if(chips.has('demiPension')&&!isOui(c["Demi-pension"]))return false;
     if(chips.has('buffet')&&c["Buffet disponible"]!=='Oui')return false;
+	  if(chips.has('pensionComplete')&&c["Pension complète"]!=='Oui')return false;
     if(chips.has('adultOnly')&&c["Adult Only"]!=='Oui')return false;
     if(chips.has('enfants')&&!isOk(c["Clubs enfants/ados"]))return false;
     if(chips.has('pmr')){if(String(c["Accès PMR"]||'').toLowerCase()!=='oui')return false}
@@ -981,7 +987,7 @@ function closeForm(){document.getElementById('formOverlay').classList.remove('ac
 function clearForm(){
   ['fNom','fPays','fVille','fLat','fLng','fChambres','fTypesChambres','fWifi','fMer','fActivites','fSport','fPiscines','fEquipSport','fAnimFr','fEnfants'].forEach(id=>document.getElementById(id).value='');
   document.getElementById('fEtoiles').value='4';document.getElementById('fAdult').value='Non';document.getElementById('fPMR').value='Non spécifié';
-  document.getElementById('fAI').value='Oui';document.getElementById('fDP').value='Non spécifié';document.getElementById('fBuffet').value='Oui';
+  document.getElementById('fAI').value='Oui';document.getElementById('fDP').value='Non spécifié';document.getElementById('fPC').value='Non spécifié';document.getElementById('fBuffet').value='Oui';
   document.getElementById('fTransferts').value='Disponible';document.getElementById('fAnimJour').value='Oui';document.getElementById('fAnimSoir').value='Oui';
 }
 function fillForm(c){
@@ -992,7 +998,7 @@ function fillForm(c){
   document.getElementById('fChambres').value=c["Nombre de chambres"]||'';document.getElementById('fTypesChambres').value=c["Types de chambres"]||'';
   document.getElementById('fAdult').value=c["Adult Only"]||'Non';document.getElementById('fPMR').value=c["Accès PMR"]||'Non spécifié';
   document.getElementById('fWifi').value=c["WiFi"]||'';document.getElementById('fAI').value=c["All Inclusive"]||'Oui';
-  document.getElementById('fDP').value=c["Demi-pension"]||'Non spécifié';document.getElementById('fBuffet').value=c["Buffet disponible"]||'Oui';
+  document.getElementById('fDP').value=c["Demi-pension"]||'Non spécifié';document.getElementById('fPC').value=c["Pension complète"]||'Non spécifié';document.getElementById('fBuffet').value=c["Buffet disponible"]||'Oui';
   document.getElementById('fMer').value=c["Accès direct à la mer"]||'';document.getElementById('fTransferts').value=c["Service de transferts"]||'Disponible';
   document.getElementById('fActivites').value=c["Activités proposées"]||'';document.getElementById('fSport').value=c["Salle de sport"]||'';
   document.getElementById('fPiscines').value=c["Piscines"]||'';document.getElementById('fEquipSport').value=c["Équipements sportifs"]||'';
@@ -1041,6 +1047,7 @@ async function saveForm(){
     "WiFi":document.getElementById('fWifi').value.trim(),
     "All Inclusive":document.getElementById('fAI').value,
     "Demi-pension":document.getElementById('fDP').value,
+    "Pension complète":document.getElementById('fPC').value,
     "Buffet disponible":document.getElementById('fBuffet').value,
     "Accès direct à la mer":document.getElementById('fMer').value.trim(),
     "Service de transferts":document.getElementById('fTransferts').value,
