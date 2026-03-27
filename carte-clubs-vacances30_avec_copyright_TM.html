@@ -354,7 +354,7 @@
       <div class="form-group"></div>
     </div>
     <div class="form-row">
-      <div class="form-group"><label>Pays *</label><input type="text" id="fPays" placeholder="Ex: Grèce"></div>
+      <div class="form-group"><label>Pays *</label><select id="fPays"><option value="">-- Sélectionner --</option><option>Algérie</option><option>Bulgarie</option><option>Cap-Vert</option><option>Chypre</option><option>Colombie</option><option>Costa Rica</option><option>Côte d'Ivoire</option><option>Croatie</option><option>Cuba</option><option>Égypte</option><option>Émirats arabes unis</option><option>Espagne</option><option>France</option><option>Grèce</option><option>Guadeloupe</option><option>Île Maurice</option><option>Indonésie</option><option>Italie</option><option>Jamaïque</option><option>Kenya</option><option>Madagascar</option><option>Maldives</option><option>Malte</option><option>Maroc</option><option>Martinique</option><option>Mexique</option><option>Monténégro</option><option>Oman</option><option>Portugal</option><option>République dominicaine</option><option>La Réunion</option><option>Sénégal</option><option>Seychelles</option><option>Sri Lanka</option><option>Tanzanie</option><option>Thaïlande</option><option>Tunisie</option><option>Turquie</option><option>Vietnam</option></select></div>
       <div class="form-group"><label>Ville *</label><input type="text" id="fVille" placeholder="Ex: Héraklion"></div>
     </div>
     <div class="form-map-section">
@@ -798,6 +798,8 @@ function closeDetail(){document.getElementById('detailPanel').classList.remove('
 // =====================================================================
 function populateFilters(){
   const brands=[...new Set(CLUBS.map(c=>getDisplayBrand(c)))].filter(Boolean).sort();
+  const PAYS_NORMALIZE={"Grece":"Grèce","Grèce":"Grèce","grèce":"Grèce","Thailande":"Thaïlande","Thaïlande":"Thaïlande","Egypte":"Égypte","Égypte":"Égypte","Republique dominicaine":"République dominicaine","République dominicaine":"République dominicaine","Emirats arabes unis":"Émirats arabes unis","Émirats arabes unis":"Émirats arabes unis","Ile Maurice":"Île Maurice","Île Maurice":"Île Maurice","Cap vert":"Cap-Vert","Cap-Vert":"Cap-Vert","Cote d'Ivoire":"Côte d'Ivoire","Côte d'Ivoire":"Côte d'Ivoire","La Reunion":"La Réunion","La Réunion":"La Réunion","Monteregro":"Monténégro","Monténégro":"Monténégro"};
+  CLUBS.forEach(c=>{if(c.Pays&&PAYS_NORMALIZE[c.Pays])c.Pays=PAYS_NORMALIZE[c.Pays]});
   const pays=[...new Set(CLUBS.map(c=>c.Pays))].filter(Boolean).sort();
   const sTO=document.getElementById('filterTO');brands.forEach(b=>{const o=document.createElement('option');o.value=b;o.textContent=b;sTO.appendChild(o)});
   const sP=document.getElementById('filterPays');pays.forEach(p=>{const o=document.createElement('option');o.value=p;o.textContent=p;sP.appendChild(o)});
@@ -987,7 +989,7 @@ function openForm(idx){
 }
 function closeForm(){document.getElementById('formOverlay').classList.remove('active');document.getElementById('formSaving').style.display='none';document.getElementById('formBtnSave').disabled=false;if(formMap){formMap.remove();formMap=null}formMarker=null}
 function clearForm(){
-  ['fNom','fPays','fVille','fLat','fLng','fChambres','fTypesChambres','fWifi','fDetailsHeberg','fMer','fActivites','fSport','fPiscines','fEquipSport','fAnimFr','fEnfants','fDetailsResto'].forEach(id=>document.getElementById(id).value='');
+  ['fNom','fVille','fLat','fLng','fChambres','fTypesChambres','fWifi','fDetailsHeberg','fMer','fActivites','fSport','fPiscines','fEquipSport','fAnimFr','fEnfants','fDetailsResto'].forEach(id=>document.getElementById(id).value='');
   document.getElementById('fEtoiles').value='4';document.getElementById('fAdult').value='Non';document.getElementById('fPMR').value='Non spécifié';
   document.getElementById('fAI').value='Oui';document.getElementById('fDP').value='Non spécifié';document.getElementById('fPC').value='Non spécifié';document.getElementById('fBuffet').value='Oui';
   document.getElementById('fTransferts').value='Disponible';document.getElementById('fAnimJour').value='Oui';document.getElementById('fAnimSoir').value='Oui';
