@@ -690,7 +690,7 @@ window.addEventListener('beforeunload', ()=>{ trackSessionDuration(); });
 // MAP
 // =====================================================================
 function initMainMap(){
-  mainMap=L.map('mainMap',{zoomControl:true,attributionControl:false}).setView([37,15],4);
+  mainMap=L.map('mainMap',{zoomControl:true,attributionControl:false,minZoom:2,maxBounds:[[-85,-180],[85,180]],maxBoundsViscosity:1.0}).setView([37,15],4);
   addFrenchBasemap(mainMap);
   markerCluster=L.markerClusterGroup({maxClusterRadius:40,spiderfyOnMaxZoom:true,showCoverageOnHover:false,zoomToBoundsOnClick:true});
   mainMap.addLayer(markerCluster);
