@@ -798,8 +798,10 @@ function closeDetail(){document.getElementById('detailPanel').classList.remove('
 // =====================================================================
 function populateFilters(){
   const brands=[...new Set(CLUBS.map(c=>getDisplayBrand(c)))].filter(Boolean).sort();
-  const PAYS_NORMALIZE={"Grece":"Grèce","Grèce":"Grèce","grèce":"Grèce","Thailande":"Thaïlande","Thaïlande":"Thaïlande","Egypte":"Égypte","Égypte":"Égypte","Republique dominicaine":"République dominicaine","République dominicaine":"République dominicaine","Emirats arabes unis":"Émirats arabes unis","Émirats arabes unis":"Émirats arabes unis","Ile Maurice":"Île Maurice","Île Maurice":"Île Maurice","Cap vert":"Cap-Vert","Cap-Vert":"Cap-Vert","Cote d'Ivoire":"Côte d'Ivoire","Côte d'Ivoire":"Côte d'Ivoire","La Reunion":"La Réunion","La Réunion":"La Réunion","Monteregro":"Monténégro","Monténégro":"Monténégro"};
-  CLUBS.forEach(c=>{if(c.Pays&&PAYS_NORMALIZE[c.Pays])c.Pays=PAYS_NORMALIZE[c.Pays]});
+  const PAYS_OFFICIELS=[...document.getElementById('fPays').options].map(o=>o.value).filter(Boolean);
+  const normalizeStr=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[-\s'']/g,'').toLowerCase();
+  const PAYS_MAP={};PAYS_OFFICIELS.forEach(p=>{PAYS_MAP[normalizeStr(p)]=p});
+  CLUBS.forEach(c=>{if(c.Pays){const k=normalizeStr(c.Pays);if(PAYS_MAP[k])c.Pays=PAYS_MAP[k]}});
   const pays=[...new Set(CLUBS.map(c=>c.Pays))].filter(Boolean).sort();
   const sTO=document.getElementById('filterTO');brands.forEach(b=>{const o=document.createElement('option');o.value=b;o.textContent=b;sTO.appendChild(o)});
   const sP=document.getElementById('filterPays');pays.forEach(p=>{const o=document.createElement('option');o.value=p;o.textContent=p;sP.appendChild(o)});
