@@ -55,10 +55,10 @@
 .main-layout{flex:1;display:flex;overflow:hidden}
 .banner-pub{position:relative;flex-shrink:0;background:#f0f0f0;text-align:center;line-height:0;display:none}
 .banner-pub.visible{display:block}
-.banner-pub a{display:block;line-height:0}
+.banner-pub a{line-height:0}
+.banner-pub a.banner-desktop{display:block}
+.banner-pub a.banner-mobile{display:none}
 .banner-pub img{width:100%;height:auto;max-width:none!important}
-.banner-pub .banner-desktop{display:block}
-.banner-pub .banner-mobile{display:none}
 .banner-pub .banner-close{position:absolute;top:2px;right:6px;background:rgba(0,0,0,.4);border:none;color:#fff;width:20px;height:20px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:.7rem;line-height:1;z-index:2;transition:background .2s}
 .banner-pub .banner-close:hover{background:rgba(0,0,0,.6)}
 .sidebar{width:380px;flex-shrink:0;display:flex;flex-direction:column;background:var(--card);border-right:1px solid var(--border);overflow:hidden}
@@ -234,8 +234,8 @@
   .sidebar{width:100%;height:55%;min-height:200px;border-right:none;border-bottom:1px solid var(--border);overflow-y:auto}
   .map-panel{width:100%;height:45%;min-height:180px;position:relative}
   .map-legend{display:none!important}
-  .banner-pub .banner-desktop{display:none}
-  .banner-pub .banner-mobile{display:block}
+  .banner-pub .banner-desktop{display:none!important}
+  .banner-pub .banner-mobile{display:block!important}
   .filters-body.open{display:none!important}
   .detail-panel{width:100%;position:fixed;inset:0;z-index:10001;transform:translateY(100%);border-radius:0}
   .detail-panel.open{transform:translateY(0)}
@@ -283,9 +283,11 @@
     </div>
   </div>
   <div class="banner-pub" id="bannerPub">
-    <a id="bannerLink" href="#" target="_blank">
-      <img class="banner-desktop" id="bannerDesktop" src="" alt="Publicité">
-      <img class="banner-mobile" id="bannerMobile" src="" alt="Publicité">
+    <a id="bannerLinkDesktop" class="banner-desktop" href="#" target="_blank">
+      <img id="bannerDesktop" src="" alt="Publicité">
+    </a>
+    <a id="bannerLinkMobile" class="banner-mobile" href="#" target="_blank">
+      <img id="bannerMobile" src="" alt="Publicité">
     </a>
     <button class="banner-close" onclick="document.getElementById('bannerPub').classList.remove('visible')" title="Fermer">✕</button>
   </div>
@@ -724,7 +726,8 @@ async function init(){
       const cfg=await res.json();
       document.getElementById('bannerDesktop').src=bannerBase+(cfg.desktop||'banner-desktop.jpg');
       document.getElementById('bannerMobile').src=bannerBase+(cfg.mobile||'banner-mobile.jpg');
-      document.getElementById('bannerLink').href=cfg.url||'#';
+      document.getElementById('bannerLinkDesktop').href=cfg.url||'#';
+      document.getElementById('bannerLinkMobile').href=cfg.url_mobile||cfg.url||'#';
       document.getElementById('bannerPub').classList.add('visible');
     }
   }catch(e){console.log('Banner load skipped:',e)}
