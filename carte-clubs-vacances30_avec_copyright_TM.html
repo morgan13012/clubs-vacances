@@ -531,7 +531,7 @@ const USER_TO_MAPPING = {
   "XQt08Ev2sUgsEYDk9P7w4BZHt1V2": "Mondial Tourisme", 
   "Ecy8asFC0QV0Y5iwRh16O3tZSF92": "Naya Club",      
   "KFfh60Ypyyehkl5f6o9102rHxqJ2": "Top of Travel",  
-  "Mq1bLIc5gRV2nl91q0iowMY4k9k1": "Ôvoyages",           
+  "Mq1bLIc5gRV2nl91q0iowMY4k9k1": "Ôclub",           
 	"9azHZOaKRDcwR2sgBnLamZ5oi8i2": "Club Med",          
 	"JliDnLXbdNhTqxXhwIb98VK03hB2": "Belambra"           
 };
@@ -543,8 +543,7 @@ const USER_TO_MAPPING = {
 const TO_MARQUES = {
   "FRAM":["Framissima","Club Jumbo"],
   "TUI":["Marmara","Lookéa"],
-  "Kappa Club":["Kappa Club"],
-  "Ôvoyages":["Ôclub","Smart Club"]
+  "Kappa Club":["Kappa Club"]
 };
 
 // Returns the marque options for a TO (for the add form)
@@ -565,12 +564,12 @@ const BRAND_COLORS = {
   "Coralia":"#2A9D8F","Eldorador":"#D4A017",
   "Héliades":"#F4A261","Kappa Club":"#7C3AED",
   "Mon French Club":"#0284C7",
-  "Mondi Club":"#059669","Naya Club":"#D946EF","Top of Travel":"#EA580C","Ôclub":"#4F46E5","Smart Club":"#6366F1",
+  "Mondi Club":"#059669","Naya Club":"#D946EF","Top of Travel":"#EA580C","Ôclub":"#4F46E5",
   "Club Med":"#E30613"
 };
 // Fallback: anciennes couleurs TO (pour compatibilité)
 const TO_COLORS_FALLBACK = {
-  "FRAM":"#264653","TUI":"#DC2626","Mondial Tourisme":"#059669","Ôvoyages":"#4F46E5"
+  "FRAM":"#264653","TUI":"#DC2626","Mondial Tourisme":"#059669"
 };
 function getColor(brand){return BRAND_COLORS[(brand||'').trim()]||TO_COLORS_FALLBACK[(brand||'').trim()]||'#6B7280'}
 
@@ -657,13 +656,6 @@ async function init(){
     CLUBS=[...CLUBS,...cmClubs];
   }
   if(!CLUBS.length){document.getElementById('embedOverlay').innerHTML='<p style="color:#fff">Erreur: aucune donnée</p>';return;}
-  // Normalisation: Ôclub (ancien TO) → Ôvoyages (nouveau TO parent)
-  CLUBS.forEach(c=>{
-    if((c["Tour Operator"]||'').trim()==='Ôclub'){
-      c["Tour Operator"]="Ôvoyages";
-      if(!c["Marque"]||c["Marque"]==='Ôclub')c["Marque"]="Ôclub";
-    }
-  });
   filteredClubs=[];
   populateFilters();
   const nPays=[...new Set(CLUBS.map(c=>c.Pays))].length;
@@ -724,7 +716,7 @@ function buildLegend(){
   if(!isPublicMode && !currentTO){document.getElementById('mapLegend').innerHTML='';return}
   const visibleClubs=(isPublicMode||isAdmin)?CLUBS:CLUBS.filter(c=>canManageClub(c));
   const bc={};visibleClubs.forEach(c=>{const b=getDisplayBrand(c);bc[b]=(bc[b]||0)+1});
-  document.getElementById('mapLegend').innerHTML=`<h4>Clubs de Vacances</h4>`+Object.entries(bc).sort((a,b)=>b[1]-a[1]).map(([b,n])=>`<div class="legend-item" data-brand="${b}" onclick="toggleLegend(this,'${b.replace(/'/g,"\\'")}')"><div class="legend-dot" style="background:${getColor(b)}"></div><span class="legend-label">${b}</span><span class="legend-cnt">${n}</span></div>`).join('');
+  document.getElementById('mapLegend').innerHTML=`<h4>Clubs de Vacances</h4>`+Object.entries(bc).sort((a,b)=>a[0].localeCompare(b[0],'fr')).map(([b,n])=>`<div class="legend-item" data-brand="${b}" onclick="toggleLegend(this,'${b.replace(/'/g,"\\'")}')"><div class="legend-dot" style="background:${getColor(b)}"></div><span class="legend-label">${b}</span><span class="legend-cnt">${n}</span></div>`).join('');
 }
 function toggleLegend(el,brand){
   if(legendHighlighted.has(brand)){
@@ -805,7 +797,7 @@ function closeDetail(){document.getElementById('detailPanel').classList.remove('
 // FILTERS
 // =====================================================================
 function populateFilters(){
-  const brands=[...new Set(CLUBS.map(c=>getDisplayBrand(c)))].filter(Boolean).sort();
+  const brands=[...new Set(CLUBS.map(c=>getDisplayBrand(c)))].filter(Boolean).sort((a,b)=>a.localeCompare(b,'fr'));
   const PAYS_OFFICIELS=[...document.getElementById('fPays').options].map(o=>o.value).filter(Boolean);
   const normalizeStr=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[-\s'']/g,'').toLowerCase();
   const PAYS_MAP={};PAYS_OFFICIELS.forEach(p=>{PAYS_MAP[normalizeStr(p)]=p});
@@ -967,19 +959,7 @@ function openForm(idx){
     title.textContent='Modifier le club';
     header.style.background=getColor(getDisplayBrand(CLUBS[idx]));
     fillForm(CLUBS[idx]);
-    // Show brand selector in edit mode too
-    const clubTO=(CLUBS[idx]["Tour Operator"]||'').trim();
-    const clubMarque=(CLUBS[idx]["Marque"]||'').trim();
-    if(isAdmin){
-      brandRow.style.display='grid';
-      const allMarques=[...new Set(CLUBS.map(c=>(c["Marque"]||c["Tour Operator"]||'').trim()))].filter(Boolean).sort();
-      brandSel.innerHTML=allMarques.map(b=>`<option value="${b}"${b===clubMarque?' selected':''}>${b}</option>`).join('');
-    }else if(TO_MARQUES[currentTO]&&TO_MARQUES[currentTO].length>0){
-      brandRow.style.display='grid';
-      brandSel.innerHTML=TO_MARQUES[currentTO].map(b=>`<option value="${b}"${b===clubMarque?' selected':''}>${b}</option>`).join('');
-    }else{
-      brandRow.style.display='none';
-    }
+    brandRow.style.display='none';
   }else{
     title.textContent='Ajouter un club';
     const marques=getMarques();
@@ -1042,29 +1022,19 @@ async function saveForm(){
   if(isNaN(lat)||isNaN(lng)){toast('Veuillez placer le club sur la carte','error');return}
   
   let clubTO, clubMarque;
-  const brandRow=document.getElementById('fBrandRow');
-  const brandSel=document.getElementById('fBrand');
   if(editingIdx!==null){
     clubTO=CLUBS[editingIdx]["Tour Operator"];
-    if(brandRow.style.display!=='none'&&brandSel.value){
-      clubMarque=brandSel.value;
-      if(isAdmin){
-        if(["Framissima","Club Jumbo"].includes(clubMarque))clubTO="FRAM";
-        else if(["Marmara","Lookéa"].includes(clubMarque))clubTO="TUI";
-        else if(["Ôclub","Smart Club"].includes(clubMarque))clubTO="Ôvoyages";
-        else clubTO=clubMarque;
-      }
-    }else{
-      clubMarque=CLUBS[editingIdx]["Marque"]||clubTO;
-    }
+    clubMarque=CLUBS[editingIdx]["Marque"]||clubTO;
   }else{
     clubTO=isAdmin?'':currentTO;
+    const brandRow=document.getElementById('fBrandRow');
+    const brandSel=document.getElementById('fBrand');
     if(brandRow.style.display!=='none'&&brandSel.value){
       clubMarque=brandSel.value;
+      // For admin, determine parent TO from marque
       if(isAdmin){
         if(["Framissima","Club Jumbo"].includes(clubMarque))clubTO="FRAM";
         else if(["Marmara","Lookéa"].includes(clubMarque))clubTO="TUI";
-        else if(["Ôclub","Smart Club"].includes(clubMarque))clubTO="Ôvoyages";
         else clubTO=clubMarque;
       }
     }else{
