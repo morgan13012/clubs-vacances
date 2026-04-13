@@ -53,6 +53,14 @@
 .btn-close{background:rgba(255,255,255,.15);border:none;color:#fff;width:36px;height:36px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:1.2rem;transition:background .2s}
 .btn-close:hover{background:rgba(255,255,255,.3)}
 .main-layout{flex:1;display:flex;overflow:hidden}
+.banner-pub{position:relative;flex-shrink:0;background:#f0f0f0;text-align:center;line-height:0;display:none}
+.banner-pub.visible{display:block}
+.banner-pub a{display:block;line-height:0}
+.banner-pub img{width:100%;height:auto}
+.banner-pub .banner-desktop{display:block}
+.banner-pub .banner-mobile{display:none}
+.banner-pub .banner-close{position:absolute;top:2px;right:6px;background:rgba(0,0,0,.4);border:none;color:#fff;width:20px;height:20px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:.7rem;line-height:1;z-index:2;transition:background .2s}
+.banner-pub .banner-close:hover{background:rgba(0,0,0,.6)}
 .sidebar{width:380px;flex-shrink:0;display:flex;flex-direction:column;background:var(--card);border-right:1px solid var(--border);overflow:hidden}
 .search-box{padding:12px 16px 8px;border-bottom:1px solid var(--border)}
 .search-wrap{display:flex;align-items:center;background:var(--bg);border-radius:8px;padding:0 12px;gap:8px;border:2px solid transparent;transition:border-color .2s}
@@ -226,6 +234,8 @@
   .sidebar{width:100%;height:55%;min-height:200px;border-right:none;border-bottom:1px solid var(--border);overflow-y:auto}
   .map-panel{width:100%;height:45%;min-height:180px;position:relative}
   .map-legend{display:none!important}
+  .banner-pub .banner-desktop{display:none}
+  .banner-pub .banner-mobile{display:block}
   .filters-body.open{display:none!important}
   .detail-panel{width:100%;position:fixed;inset:0;z-index:10001;transform:translateY(100%);border-radius:0}
   .detail-panel.open{transform:translateY(0)}
@@ -237,8 +247,8 @@
   .topbar-left{font-size:.9rem}
 }
 	
-.filters-overlay{display:none;position:fixed;inset:0;z-index:10002;background:rgba(0,0,0,.5);backdrop-filter:blur(4px);align-items:flex-end;justify-content:center}
-.filters-popup{background:var(--card);width:100%;max-height:85vh;border-radius:16px 16px 0 0;overflow-y:auto;padding:0;display:flex;flex-direction:column;animation:slideUp .3s}
+.filters-overlay{display:none;position:fixed;inset:0;z-index:10002;background:rgba(0,0,0,.5);backdrop-filter:blur(4px);align-items:center;justify-content:center}
+.filters-popup{background:var(--card);width:100%;max-width:500px;max-height:85vh;border-radius:16px;overflow-y:auto;padding:0;display:flex;flex-direction:column;animation:slideUp .3s}
 .filters-popup-header{display:flex;align-items:center;justify-content:space-between;padding:16px 20px;border-bottom:1px solid var(--border);position:sticky;top:0;background:var(--card);z-index:1}
 .filters-popup-header h3{font-size:1rem;color:var(--text);margin:0}
 .filters-popup-close{background:none;border:none;font-size:1.3rem;cursor:pointer;color:var(--text-light);padding:4px 8px}
@@ -271,6 +281,13 @@
       <button class="btn-to-login" id="btnStats" style="display:none" onclick="openStats()"><svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 20V10M12 20V4M6 20v-6"/></svg> Stats</button>
       <button class="btn-close" onclick="closeModal()">✕</button>
     </div>
+  </div>
+  <div class="banner-pub" id="bannerPub">
+    <a id="bannerLink" href="#" target="_blank">
+      <img class="banner-desktop" id="bannerDesktop" src="" alt="Publicité">
+      <img class="banner-mobile" id="bannerMobile" src="" alt="Publicité">
+    </a>
+    <button class="banner-close" onclick="document.getElementById('bannerPub').classList.remove('visible')" title="Fermer">✕</button>
   </div>
   <div class="main-layout">
 	  
@@ -533,7 +550,8 @@ const USER_TO_MAPPING = {
   "KFfh60Ypyyehkl5f6o9102rHxqJ2": "Top of Travel",  
   "Mq1bLIc5gRV2nl91q0iowMY4k9k1": "Ôclub",           
 	"9azHZOaKRDcwR2sgBnLamZ5oi8i2": "Club Med",          
-	"JliDnLXbdNhTqxXhwIb98VK03hB2": "Belambra"           
+	"JliDnLXbdNhTqxXhwIb98VK03hB2": "Belambra",
+  "v29QHtn9A6fZ1lDKLGqsXLM4DM92": "Jet Tours"
 };
 
 // =====================================================================
@@ -565,7 +583,8 @@ const BRAND_COLORS = {
   "Héliades":"#F4A261","Kappa Club":"#7C3AED",
   "Mon French Club":"#0284C7",
   "Mondi Club":"#059669","Naya Club":"#D946EF","Top of Travel":"#EA580C","Ôclub":"#4F46E5",
-  "Club Med":"#E30613"
+  "Club Med":"#E30613",
+  "Belambra":"#6B7280","Jet Tours":"#0891B2"
 };
 // Fallback: anciennes couleurs TO (pour compatibilité)
 const TO_COLORS_FALLBACK = {
@@ -618,13 +637,39 @@ async function loadFromGitHub(){
   }
 }
 async function saveToGitHub(data){
+  // Vérifier que la session Firebase est encore valide
+  const user=auth.currentUser;
+  if(!user){throw new Error('Session expirée')}
   try{
-    await db.collection('data').doc('clubs').set({list:data});
+    await user.getIdToken(true);
   }catch(e){
-    // Fallback localStorage
-    try{localStorage.setItem('clubs_vacances_data',JSON.stringify(data))}catch(e2){}
-    throw e;
+    auth.signOut();
+    toast('Votre session a expiré. Veuillez vous reconnecter.','error');
+    throw new Error('Session expirée');
   }
+  await db.collection('data').doc('clubs').set({list:data});
+}
+
+// Recharge les données fraîches depuis Firestore et applique une opération
+async function saveWithFreshData(operation){
+  const freshDoc=await db.collection('data').doc('clubs').get();
+  if(!freshDoc.exists)throw new Error('Document clubs introuvable');
+  let freshClubs=(freshDoc.data().list||[]).map(c=>({...c,lat:parseFloat(c.lat)||0,lng:parseFloat(c.lng)||0}));
+  // Appliquer la normalisation Ôclub → Ôvoyages sur les données fraîches
+  freshClubs.forEach(c=>{
+    const to=(c["Tour Operator"]||'').trim();
+    if(to==='Ôclub'||to==='Oclub'||to==='ôclub'||to==='oclub'){
+      c["Tour Operator"]="Ôvoyages";
+      const m=(c["Marque"]||'').trim();
+      if(!m||m==='Ôclub'||m==='Oclub')c["Marque"]="Ôclub";
+    }
+  });
+  // Appliquer l'opération (ajout, modification ou suppression)
+  freshClubs=operation(freshClubs);
+  await saveToGitHub(freshClubs);
+  // Mettre à jour le tableau local
+  CLUBS=freshClubs;
+  return freshClubs;
 }
 
 // =====================================================================
@@ -670,6 +715,19 @@ async function init(){
   embedMap=L.map('embedMap',{zoomControl:false,attributionControl:false,dragging:false,scrollWheelZoom:false,doubleClickZoom:false,touchZoom:false}).setView([35,15],3);
   L.tileLayer(RASTER_FALLBACK,{maxZoom:19}).addTo(embedMap); // lightweight raster for tiny preview
   CLUBS.forEach(c=>{L.circleMarker([c.lat,c.lng],{radius:4,fillColor:getColor(getDisplayBrand(c)),fillOpacity:.8,stroke:true,weight:1,color:'#fff'}).addTo(embedMap)});
+  
+  // Chargement bandeau publicitaire
+  try{
+    const bannerBase='https://www.tourmag.com/my/tourmag/dossiers_speciaux/2026_03_clubs/carte/';
+    const res=await fetch(bannerBase+'banner-config.json');
+    if(res.ok){
+      const cfg=await res.json();
+      document.getElementById('bannerDesktop').src=bannerBase+(cfg.desktop||'banner-desktop.jpg');
+      document.getElementById('bannerMobile').src=bannerBase+(cfg.mobile||'banner-mobile.jpg');
+      document.getElementById('bannerLink').href=cfg.url||'#';
+      document.getElementById('bannerPub').classList.add('visible');
+    }
+  }catch(e){console.log('Banner load skipped:',e)}
 }
 init();
 
@@ -806,7 +864,7 @@ function populateFilters(){
   const sTO=document.getElementById('filterTO');brands.forEach(b=>{const o=document.createElement('option');o.value=b;o.textContent=b;sTO.appendChild(o)});
   const sP=document.getElementById('filterPays');pays.forEach(p=>{const o=document.createElement('option');o.value=p;o.textContent=p;sP.appendChild(o)});
 }
-function toggleFilters(){if(window.innerWidth<=768){openFiltersPopup();return}document.getElementById('filtersToggle').classList.toggle('open');document.getElementById('filtersBody').classList.toggle('open')}
+function toggleFilters(){openFiltersPopup()}
 function openFiltersPopup(){var src=document.getElementById('filtersBody');var dest=document.getElementById('filtersPopupBody');dest.innerHTML=src.innerHTML;dest.querySelectorAll('.filter-select').forEach(function(sel){var orig=document.getElementById(sel.id);if(orig)sel.value=orig.value;sel.addEventListener('change',function(){var o=document.getElementById(this.id);if(o){o.value=this.value}applyFilters()})});dest.querySelectorAll('.filter-chip').forEach(function(chip,i){var origChips=src.querySelectorAll('.filter-chip');if(origChips[i]&&origChips[i].classList.contains('active'))chip.classList.add('active')});document.getElementById('filtersOverlay').classList.add('active');document.getElementById('filtersOverlay').style.display='flex'}
 function closeFiltersPopup(){document.getElementById('filtersOverlay').classList.remove('active');document.getElementById('filtersOverlay').style.display='none'}
 function toggleStar(el){document.querySelectorAll('#filterStars .filter-chip').forEach(c=>c.classList.remove('active'));el.classList.add('active');selectedStars=el.dataset.val;applyFilters()}
@@ -1070,12 +1128,28 @@ async function saveForm(){
   };
   document.getElementById('formSaving').style.display='flex';document.getElementById('formBtnSave').disabled=true;
   try{
-    if(editingIdx!==null){CLUBS[editingIdx]={...CLUBS[editingIdx],...club}}else{CLUBS.push(club)}
-    await saveToGitHub(CLUBS);
+    if(editingIdx!==null){
+      // Modification : on identifie le club par son nom + TO + ville d'origine
+      const origClub=CLUBS[editingIdx];
+      const origNom=origClub["Nom du club"];
+      const origTO=(origClub["Tour Operator"]||'').trim();
+      const origVille=(origClub.Ville||'').trim();
+      await saveWithFreshData(freshClubs=>{
+        const fi=freshClubs.findIndex(c=>c["Nom du club"]===origNom&&(c["Tour Operator"]||'').trim()===origTO&&(c.Ville||'').trim()===origVille);
+        if(fi!==-1){freshClubs[fi]={...freshClubs[fi],...club}}else{freshClubs.push(club)}
+        return freshClubs;
+      });
+    }else{
+      // Ajout
+      await saveWithFreshData(freshClubs=>{
+        freshClubs.push(club);
+        return freshClubs;
+      });
+    }
     applyFilters();buildLegend();closeForm();closeDetail();
     toast(editingIdx!==null?'Club modifié avec succès ✓':'Nouveau club ajouté avec succès ✓','success');
   }catch(e){
-    console.error('Save error:',e);if(editingIdx===null)CLUBS.pop();
+    console.error('Save error:',e);
     toast('Erreur de sauvegarde. Vérifiez la connexion.','error');
     document.getElementById('formSaving').style.display='none';document.getElementById('formBtnSave').disabled=false;
   }
@@ -1094,11 +1168,17 @@ function hideConfirm(){document.getElementById('confirmOverlay').classList.remov
 async function doDelete(){
   if(deleteIdx===null)return;
   const idx=deleteIdx;
-  const name=CLUBS[idx]["Nom du club"];
+  const club=CLUBS[idx];
+  const name=club["Nom du club"];
+  const clubTO=(club["Tour Operator"]||'').trim();
+  const clubVille=(club.Ville||'').trim();
   hideConfirm();
   try{
-    CLUBS.splice(idx,1);
-    await saveToGitHub(CLUBS);
+    await saveWithFreshData(freshClubs=>{
+      const fi=freshClubs.findIndex(c=>c["Nom du club"]===name&&(c["Tour Operator"]||'').trim()===clubTO&&(c.Ville||'').trim()===clubVille);
+      if(fi!==-1)freshClubs.splice(fi,1);
+      return freshClubs;
+    });
     applyFilters();buildLegend();closeDetail();
     toast(`"${name}" supprimé avec succès`,'success');
   }catch(e){
