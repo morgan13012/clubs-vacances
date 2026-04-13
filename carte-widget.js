@@ -11,7 +11,7 @@
 
   // Style du conteneur
   container.style.width = '80%';
-  container.style.height = '70vh';
+  container.style.height = '45vh';
   container.style.margin = '0 auto';
   container.style.position = 'relative';
   container.style.overflow = 'hidden';
